@@ -271,6 +271,49 @@ header {
 
 }
 
+#about-thirds {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+.about-thirds-img-left{
+    background-image: url("../img/lead_singer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    height: 100%;
+    width:33.33%;
+}
+
+.about-thirds-img-center{
+    background-image: url("../img/wedding_band.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    height: 100%;
+    width:33.33%;
+}
+
+.about-thirds-img-right{
+    background-image: url("../img/wedding_performance.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height: 100%;
+    width:33.33%;
+}
+
+
+
+
+
 
 
 
