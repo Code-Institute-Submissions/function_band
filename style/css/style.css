@@ -61,7 +61,6 @@ header {
 }
 
 
-/*--------------Hero------*/
 
 /*----------------------------Hero Image-----*/
 
@@ -177,9 +176,6 @@ header {
     margin-right: 5%;
 }
 
-
-
-
 /*------------------------------Reviews-----*/
 
 
@@ -216,10 +212,38 @@ header {
     -webkit-text-stroke: .5px grey;
     
 }
+/*---------------------------------------------------------------About Page-----*/
+/*----------------------------About Image-----*/
 
+.about-img-container {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    z-index: -2;
+  }
 
+  .about-img {
+    background: url("../img/full_band.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 90%;
+    width: auto;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
 
-
+@keyframes hero-zoom {
+    from { 
+      transform: scale(1);
+    }
+  
+    to{
+      transform: scale(1.055);
+    }
+  }
 
 /*----------------------------------Footer-----*/
 
@@ -242,7 +266,6 @@ header {
     padding: 0 5%;
     color: grey;
 }
-
 
 
 
