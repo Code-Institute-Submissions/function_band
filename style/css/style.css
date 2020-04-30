@@ -318,6 +318,10 @@ header {
 }
 
 
+
+
+/*----------------------------------Footer-----*/
+
 #trustpilot {
     width: 100%;
     height: 200px;
@@ -348,25 +352,6 @@ header {
     margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*----------------------------------Footer-----*/
 
 .social {
     text-align: center;
@@ -424,7 +409,18 @@ header {
     
     }
 
-   
+    /*------------------------------About Section-----*/
+
+    
+    #about-header {
+        font-size: .65em;
+    
+    }
+    
+    
+
+
+    
 }
 
 
@@ -450,6 +446,40 @@ header {
         font-size: 1em;
     }
     
+      /*------------------------------About Section-----*/
+
+    
+      #about-header {
+        font-size: .60em;
+    
+    }
+
+
+    
+    #about-thirds {
+        height: 800px;
+    
+    }
+    
+    .about-thirds-img-left{
+        float: none;
+        margin: 0 auto;
+        display: block;
+        height: 50%;
+        width: 100%;
+    }
+    
+    .about-thirds-img-center{
+        display: none;
+    }
+    
+    .about-thirds-img-right{
+        display: block;
+        margin: 0 auto;
+        height: 50%;
+        width: 100%;
+    }
+    
 }
     
 
@@ -461,6 +491,16 @@ header {
         display: none;
     
     }
+
+        /*------------------------------About Section-----*/
+     
+    
+    #about-header {
+        font-size: .50em;        
+    }
+
+
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -488,7 +528,28 @@ header {
         width: 80%;
     
     }
+/*------------------------------About Section-----*/
+     
+    
+    #about-header {
+     font-size: .45em;        
+   }
 
+   #about-thirds {
+    height: 400px;
+   }
+       
+   .about-thirds-img-left{
+    float: none;
+    margin: 0 auto;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+   .about-thirds-img-right{
+    display: none;
+}
 
 }
 
@@ -502,7 +563,12 @@ header {
         padding-top: 7%;
         font-size: .80em;
     }
-
+    /*------------------------------About Section-----*/
+     
+    
+    #about-header {
+    font-size: .40em;        
+    }
 
 
 
