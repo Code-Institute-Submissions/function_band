@@ -180,9 +180,6 @@ header {
 
 
 
-
-
-
 /*------------------------------Reviews-----*/
 
 
@@ -244,4 +241,125 @@ header {
     font-size: 1.75em;
     padding: 0 5%;
     color: grey;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------Media Query----------*/
+
+@media only screen and (max-width: 1024px) {
+    
+    .logo {
+        font-size: .5em;
+    }
+
+    #nav a {
+        font-size: 1em;
+    }
+
+    /*------------------------------Hero Caption-----*/
+
+    .hero-caption {
+        width: 50%;
+        left: 25%;
+    }
+    
+    .hero-caption h2 {
+        font-size: 1.5em;
+
+    }
+    
+    .hero-caption p {
+        font-size: .75em;
+    }
+
+    /*------------------------------Main Section-----*/
+    #main-header {
+        font-size: 1.10em;
+    
+    }
+
+   
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    
+    #logo {
+        float: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    #nav {
+        float: none;
+        margin: 0;
+        padding-right: 0;
+        text-align: center;
+  
+    }
+    
+
+    #nav a {
+        font-size: 1em;
+    }
+    
+}
+    
+
+@media only screen and (max-width: 650px) {
+
+    #main-header
+    h4, 
+    hr {
+        display: none;
+    
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .hero-caption {
+        width: 55%;
+        left: 24%;
+    }
+    
+    .hero-caption h2 {
+        font-size: 1em;
+
+    }
+    
+    .hero-caption p {
+        font-size: .75em;
+    }
+    
+    #main-header {
+        padding-top: 7%;
+        font-size: .85em;
+    }
+
+    .review-container {
+        width: 80%;
+    
+    }
+
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .hero-caption p {
+        display: none;
+    }
+    
+    #main-header {
+        padding-top: 7%;
+        font-size: .80em;
+    }
+
+
+
+
 }
