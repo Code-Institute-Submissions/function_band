@@ -63,33 +63,58 @@ header {
 
 /*--------------Hero------*/
 
-.hero {
-    font-family: "Monserret", sans-serif;
-    color: white;
-}
-.hero img {
-    position: relative;
+/*----------------------------Hero Image-----*/
+
+.hero-container {
+    height: 800px;
     width: 100%;
-    z-index: -1;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    z-index: -2;
+  }
+
+  .hero-image {
+    background: url(../img/partyperformance.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: auto;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
-.hero-caption  {
+@keyframes hero-zoom {
+    from { 
+      transform: scale(1);
+    }
+  
+    to{
+      transform: scale(1.055);
+    }
+  }
+
+
+.hero-caption {
     position: absolute;
-    top: 500px;
+    top: 50%;
+    left: 30%;
+    width: 40%;
+    height: auto;
     text-align: center;
-    text-transform: uppercase;
+    background-color: rgba(153, 50, 204,.75);
+    letter-spacing: 1.5px;
+    color: white;
+    padding: 1.5%;
 }
 
-.hero-caption h3 {
-    margin: 0;
-    font-size: 50px;
+
+.hero-caption h2 {
+    font-size: 2em;
+    padding-top: 5%;
 }
 
 .hero-caption p {
-    font-size: 15px;
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    width: 55%;
-    padding-left: 22%;
+    font-size: 1em;
 }
