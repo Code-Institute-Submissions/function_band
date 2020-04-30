@@ -27,7 +27,7 @@ header {
     width: 100%;
     height: 100px;
     position: fixed;
-    z-index: -1;
+    
 }
 
 #logo {
@@ -36,19 +36,21 @@ header {
     font-size: 2em;
     margin-top: 3vw;
     color: white;
+
 }
 
 #nav {
     float: right;
     margin-top: 3vw;
     padding-right: 1vw;
-
+    
 }
 
 #nav li {
     list-style-type: none;
     display: inline-block;
     padding-right: 1vw;
+
 }
 
 #nav a {
@@ -85,6 +87,7 @@ header {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+
 }
 
 @keyframes hero-zoom {
@@ -135,11 +138,11 @@ header {
     width: 100%;
     position: relative;
     overflow: hidden;
-    z-index: 2;
     margin: 0 auto;
     padding-top: 5%;
     padding-right: 5%;
     padding-left: 5%;
+  
 }
 
 
@@ -152,7 +155,7 @@ header {
     color: blue;
     font-size: 1.25em;
     letter-spacing: 2px;
-
+  
 }
 
  hr {
@@ -188,11 +191,12 @@ header {
     text-align: center;
     margin: 0 auto;
     padding: 5%;
-
+    position: relative;
 }
 
 .individual-review  {
     padding-top: 5%;
+
 }
 
 .individual-review h4 {
@@ -203,6 +207,7 @@ header {
 .individual-review p {
     font-size: 1.25em;
     font-weight: 200;
+
 }
 
 .individual-review i {
@@ -251,7 +256,7 @@ header {
 /*----------------------------Main about-----*/
 
 #about {
-    height: 400px;
+    height: 350px;
     width: 100%;
     position: relative;
     overflow: hidden;
