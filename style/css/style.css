@@ -118,3 +118,28 @@ header {
 .hero-caption p {
     font-size: 1em;
 }
+
+.btn-enquire {
+    font-family: "Baloo Bhaina 2";
+    z-index: 1;
+    margin-bottom: 8px;
+
+}
+
+
+
+.reviews {
+    font-family: "Montserrat", sans-serif;
+}
+
+.reviews h4 {
+    font-weight: 600;
+}
+
+.reviews p {
+    font-weight: 200;
+}
+
+.reviews i {
+    color: #FEE725;
+}
