@@ -311,6 +311,32 @@ header {
 }
 
 
+#trustpilot {
+    width: 100%;
+    height: 200px;
+    padding-top: 3%;
+}
+
+.trust-pilot-call-to-action {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 400;
+
+}
+
+.trust-pilot-call-to-action p {
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+
+.trust-pilot-call-to-action i {
+    letter-spacing: .5em;
+    font-size: .50em;
+    color: #17b32c;  
+    -webkit-text-stroke: .5px grey;
+}
+
 
 
 
