@@ -174,12 +174,24 @@ header {
 
 
 
+/*----------------------------------Footer-----*/
 
+.social {
+    text-align: center;
+    padding: 2% 0;
+}
 
+.social h4 {
+    text-align: center;
+    font-size: 1.5em;
+    color: grey;
+}
+.social li {
+    display: inline;
+}
 
-footer {
-    background-color: #450486;
-    width: 100%;
-    display: block;
-    height: 50%;
+.social a {
+    font-size: 1.75em;
+    padding: 0 5%;
+    color: grey;
 }
