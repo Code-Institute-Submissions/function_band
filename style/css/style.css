@@ -126,6 +126,56 @@ header {
 
 }
 
+/*----------------------------Main-----*/
+
+#main {
+    height: 350px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+
+#main-header {
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
+    text-align: center;
+    z-index: 1;
+    color: blue;
+    font-size: 1.25em;
+    letter-spacing: 2px;
+
+}
+
+ hr {
+    border: blue 1px solid;
+ }
+
+
+.main-image-container {
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 2%;
+}
+
+.main-image {
+    background-image: url("../img/wedding_performance.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 
 
