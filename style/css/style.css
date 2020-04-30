@@ -169,3 +169,17 @@ header {
     -webkit-text-stroke: .5px grey;
     
 }
+
+
+
+
+
+
+
+
+footer {
+    background-color: #450486;
+    width: 100%;
+    display: block;
+    height: 50%;
+}
