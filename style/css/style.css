@@ -128,18 +128,44 @@ header {
 
 
 
-.reviews {
-    font-family: "Montserrat", sans-serif;
+
+
+
+
+
+/*------------------------------Reviews-----*/
+
+
+.review-container {
+    width: 75%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5%;
+
 }
 
-.reviews h4 {
-    font-weight: 600;
+.individual-review  {
+    padding-top: 5%;
+
 }
 
-.reviews p {
+.individual-review h4 {
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+.individual-review p {
+    font-size: 1.25em;
     font-weight: 200;
 }
 
-.reviews i {
-    color: #FEE725;
+.individual-review i {
+    text-align-last: center;
+    padding: 0;
+    letter-spacing: .5em;
+    font-size: .75em;
+    color: #FEE725;    
+    -webkit-text-stroke: .5px grey;
+    
 }
