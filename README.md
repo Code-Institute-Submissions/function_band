@@ -97,10 +97,25 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
+I used Free Code Camp for guidance on the grid layout for the gallery page. 
+https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/
+
+I regularly used Stack Overflow on any queries I had. Especially when it came to the use of background images, which was heavily used throughout this project. 
+
+I had issues with understanding Git and pushing repositries to Github, so I used these sites as guidance as well as referancing the lesson on the command line module on Code Institue.
+
+I deployed a static website and used this guideline from Treehouse on how to do this via Heroku:
+https://blog.teamtreehouse.com/deploy-static-site-heroku
+
+
+I grabbed inspriation for the style from the Love Running Mini Project that was completed with the Code Institute.
 
 
 ### Media
 - The photos used in this site were obtained from ...
+
+
+
 
 ### Acknowledgements
 
