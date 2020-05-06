@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*-------------------------------------------------header----*/ 
+
+header {
+    font-family: "Baloo Bhaina 2", sans-serif;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+
+#logo {
+    float: left;
+    padding-left: 1.5vw;
+    font-size: 2em;
+    margin-top: 3vw;
+    color: white;
+}
+
+#nav {
+    float: right;
+    margin-top: 3vw;
+    padding-right: 1vw; 
+}
+
+#nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 1vw;
+}
+
+#nav a {
+    font-size: 1.5em;
+    padding: .5vw;
+    color: white;   
+}
+
+.active {
+    border: 1px solid white;
+}
+
+/*----------------------------Hero Image-----*/
+
+.hero-container {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    z-index: -2;
+  }
+
+  .hero-image {
+    background: url(../img/partyperformance.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: auto;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from { 
+      transform: scale(1);
+    }
+  
+    to{
+      transform: scale(1.055);
+    }
+  }
+
+.hero-caption {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 40%;
+    height: auto;
+    text-align: center;
+    background-color: rgba(153, 50, 204,.75);
+    letter-spacing: 1.5px;
+    color: white;
+    padding: 1.5%;
+}
+
+.hero-caption h2 {
+    font-size: 2em;
+    padding-top: 5%;
+}
+
+.hero-caption p {
+    font-size: 1em;
+}
+
+.btn-enquire {
+    font-family: "Baloo Bhaina 2";
+    z-index: 1;
+    margin-bottom: 8px;
+}
+
+/*----------------------------Main-----*/
+
+#main {
+    height: 350px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#main-header {
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
+    text-align: center;
+    z-index: 1;
+    color: blue;
+    font-size: 1.25em;
+    letter-spacing: 2px;
+}
+
+ hr {
+    border: blue 1px solid;
+ }
+
+.main-image-container {
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 2%;
+}
+
+.main-image {
+    background-image: url("../img/wedding_performance.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/*------------------------------Reviews-----*/
+
+.review-container {
+    width: 75%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5%;
+    position: relative;
+}
+
+.individual-review  {
+    padding-top: 5%;
+}
+
+.individual-review h4 {
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+.individual-review p {
+    font-size: 1.25em;
+    font-weight: 200;
+}
+
+.individual-review i {
+    text-align-last: center;
+    padding: 0;
+    letter-spacing: .5em;
+    font-size: .75em;
+    color: #FEE725;    
+    -webkit-text-stroke: .5px grey; 
+}
+/*---------------------------------------------------------------About Page-----*/
+/*-------------About Image-----*/
+
+.about-img-container {
+    height: 800px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    z-index: -2;
+  }
+
+  .about-img {
+    background: url("../img/full_band.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 90%;
+    width: auto;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+    from { 
+      transform: scale(1);
+    }
+  
+    to{
+      transform: scale(1.055);
+    }
+}
+
+/*----------------------------Main about-----*/
+
+#about {
+    height: 350px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#about-header {
+    margin: 0 auto;
+    width: auto;
+    height: 100%;
+    text-align: center;
+    z-index: 1;
+    color: blue;
+    font-size: .75em;
+    letter-spacing: 2px;
+}
+
+#about-thirds {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.about-thirds-img-left{
+    background-image: url("../img/lead_singer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    height: 100%;
+    width:33.33%;
+}
+
+.image-text{
+    background:#FFF;
+    opacity:0;
+    color: black;
+    text-align: center;
+    padding-top: 30%;
+    width: 100%;
+    height: 100%;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.about-thirds-img-left:hover p{
+    opacity:0.8;
+}
+
+.about-thirds-img-center{
+    background-image: url("../img/wedding_band.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    height: 100%;
+    width:33.33%;
+}
+
+.about-thirds-img-center:hover p{
+    opacity:0.8;
+}
+
+.about-thirds-img-right{
+    background-image: url("../img/wedding_performance.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height: 100%;
+    width:33.33%;
+}
+
+.about-thirds-img-right:hover p{
+    opacity:0.8;
+}
+
+/*-----------------------------------------------------------------------Gallery---*/
+
+.gallery_nav {
+    position: absolute;  
+}
+
+#gallery-background {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.background-texture {
+    background-image: url("../img/tecture.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 70%;
+}
+
+/*------------------------------------------------------------------------------Contact Page-----*/
+
+.contact-nav {
+    position: absolute;
+    z-index: 1;
+}
+
+.form-section {
+    height: 800px;
+    width: 100%;
+    margin: 0 auto;
+    background: url(../img/wedding_band.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: .8;
+}
+
+.contact-us-form {
+  margin-top: 100px;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  max-width: 600px;
+  position: absolute;
+  left: 25%;
+  padding: 30px;
+  clear: left;
+}
+
+.contact-us-form h2 {
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.text-input {
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+
+.text-input:hover {
+  border-color: #f16c6b;
+}
+
+/*------------Contact Us Completed Form-------------*/
+
+.contact-us-form-completed {
+  margin-top: 200px;
+  color: #fff;
+  background-color: rgba(0, 140, 65, 0.6);
+  max-width: 600px;
+  position: absolute;
+  left: 25%;
+  padding: 30px;
+  clear: left;
+}
+
+.contact-us-form-completed {
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/*----------------------------------Footer-----*/
+
+#trustpilot {
+    width: 100%;
+    height: 200px;
+    padding-top: 3%;
+}
+
+.trust-pilot-call-to-action {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 400;
+
+}
+
+.trust-pilot-call-to-action p {
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+
+.trust-pilot-call-to-action i {
+    letter-spacing: .5em;
+    font-size: .50em;
+    color: #17b32c;  
+    -webkit-text-stroke: .5px grey;
+}
+
+.btn-trustpilot {
+    margin: 0 auto;
+}
+
+
+.social {
+    text-align: center;
+    padding: 2% 0;
+}
+
+.social h4 {
+    text-align: center;
+    font-size: 1.5em;
+    color: grey;
+}
+.social li {
+    display: inline;
+}
+
+.social a {
+    font-size: 1.75em;
+    padding: 0 5%;
+    color: grey;
+}
+
+/*------------------------------------------------------------------------------------Media Query----------*/
+
+@media only screen and (max-width: 1024px) {
+    
+    .logo {
+        font-size: .5em;
+    }
+
+    #nav a {
+        font-size: 1em;
+    }
+
+    /*------------------------------Hero Caption-----*/
+
+    .hero-caption {
+        width: 50%;
+        left: 25%;
+    }
+    
+    .hero-caption h2 {
+        font-size: 1.5em;
+    }
+    
+    .hero-caption p {
+        font-size: .75em;
+    }
+
+    /*------------------------------Main Section-----*/
+    #main-header {
+        font-size: 1.10em;
+    }
+
+    /*------------------------------About Section-----*/
+    
+    #about-header {
+        font-size: .65em;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    #logo {
+        float: none;
+        padding: 0;
+        text-align: center;
+    }
+    
+    #nav {
+        float: none;
+        margin: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+    
+    #nav a {
+        font-size: 1em;
+    }
+
+      /*------------------------------About Section-----*/
+
+      #about-header {
+        font-size: .60em;
+    }
+
+    #about-thirds {
+        height: 800px;
+    }
+    
+    .about-thirds-img-left{
+        float: none;
+        margin: 0 auto;
+        display: block;
+        height: 50%;
+        width: 100%;
+    }
+    
+    .about-thirds-img-center{
+        display: none;
+    }
+    
+    .about-thirds-img-right{
+        display: block;
+        margin: 0 auto;
+        height: 50%;
+        width: 100%;
+    }
+    
+}
+    
+@media only screen and (max-width: 650px) {
+
+    #main-header
+    h4, 
+    hr {
+     display: none;
+    }
+
+    /*------------------------------About Section-----*/
+     
+    #about-header {
+        font-size: .50em;        
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .hero-caption {
+        width: 55%;
+        left: 24%;
+    }
+    
+    .hero-caption h2 {
+        font-size: 1em;
+    }
+    
+    .hero-caption p {
+        font-size: .75em;
+    }
+    
+    #main-header {
+        padding-top: 7%;
+        font-size: .85em;
+    }
+
+    .review-container {
+        width: 80%;
+    }
+
+/*------------------------------About Section-----*/
+     
+    #about-header {
+        font-size: .45em;        
+   }
+
+   #about-thirds {
+        height: 400px;
+   }
+       
+   .about-thirds-img-left{
+        float: none;
+        margin: 0 auto;
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+   .about-thirds-img-right{
+    display: none;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    .hero-caption p {
+        display: none;
+    }
+    
+    #main-header {
+        padding-top: 7%;
+        font-size: .80em;
+    }
+
+    /*------------------------------About Section-----*/
+     
+    #about-header {
+    font-size: .40em;        
+    }
+
+}
