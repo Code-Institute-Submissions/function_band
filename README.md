@@ -6,7 +6,7 @@ Essentially, this part is your sales pitch.
  
 The Funcation band is the most respected and hired band in the Greenwich and Lewisham area. The members of the band come from a variety of different backgrounds, performing alongside notable and respected artists in the industry. 
 The band varies in size and in style. The Funcation Band is able to cater their playlist to the type of event you require. 
-We are looking to span throughout London and potentially around the UK, so get in touch and we can provide a direct quote. Read about us on Trust Pilot. 
+We are looking to span throughout London and potentially around the UK, so get in touch and we can provide a direct quote. Read about us on Trust Pilot.      
 
 
 ## UX
