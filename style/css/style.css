@@ -424,6 +424,28 @@ header {
 
 
 
+/*------------Contact Us Completed Form-------------*/
+
+
+
+
+.contact-us-form-completed {
+  margin-top: 200px;
+  color: #fff;
+  background-color: rgba(0, 140, 65, 0.6);
+  max-width: 600px;
+  position: absolute;
+  left: 25%;
+  padding: 30px;
+  clear: left;
+}
+
+.contact-us-form-completed h2 {
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 
 
 
