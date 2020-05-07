@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600;700;800&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-}
 
 body {
     height: 100%;
     width: 100%;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
+    padding: 0;
+    margin: 0;
 }
 
 .uppercase {
@@ -205,7 +203,7 @@ header {
   }
 
   .about-img {
-    background: url("../img/full_band.jpg");
+    background: linear-gradient(rgba(150, 33, 228, 0.568),  rgba(255, 0, 0, 0.45)), url("../img/full_band.jpg");
     background-size: cover;
     background-position: center center;
     height: 100%;
@@ -225,46 +223,52 @@ header {
     }
 }
 
-/*----------------------------Main about-----*/
-
-#about {
-    color: blue;
-    margin: 5%;
+.about-text-box {
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 45%;
+    right: 10%;
+    background-color: rgba(56, 100, 247, .9);
 }
 
-#about-header {
-    
-    font-size: .75em;
-    letter-spacing: 2px;
+.about-text-box h4 {
+    color: white;
+    text-align: center;
+}
+
+/*----------------------------Main about-----*/
+
+.about-us-section {
+    margin: 5% 5% 0 5%;
+}
+
+.about-us-section p {
+    letter-spacing: 1px;
+}
+
+/*----Member profiles-----*/
+
+.member-profile {
+    margin: 5% 5% 0 5%;
 }
 
 
 /*----------------------------Line Up Exmaples-----*/
 
 .line-up {
-    text-align: center;
-    margin: 3%;
-}
-
-.line-up h5 {
-    text-align: center;
+    margin: 5%;
 }
 
 .line-up p {
-    font-weight: 600;
+    letter-spacing: 1px;
 }
 
-.line-up ul {
-    text-align: center;
-    list-style-type: none;
-}
-
-.line-up li {
-    font-style: italic;
-}
+/*---------For more information on about page---------*/
 
 .for-more-info {
-    font-weight: 300;
+    text-align: center;
+    margin: 3%;
     font-style: italic;
     font-size: 1em;
 }
@@ -429,6 +433,7 @@ footer {
     background-position: center;
     background-size: cover;
     overflow: hidden;
+    margin-top: 5%;
 }
 
 /*-----Social Media Account----*/
@@ -443,6 +448,7 @@ footer {
     font-weight: 600;
     margin: 0;
 }
+
 .social i {
     color: white;
     letter-spacing: 20px;
