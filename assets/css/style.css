@@ -167,15 +167,12 @@ header {
 
 .review-container {
     width: 75%;
-    height: auto;
     text-align: center;
     margin: 0 auto;
-    padding: 5%;
-    position: relative;
 }
 
 .individual-review  {
-    padding-top: 5%;
+    margin: 5%;
 }
 
 .individual-review h4 {
@@ -231,25 +228,22 @@ header {
 /*----------------------------Main about-----*/
 
 #about {
-    padding: 5% 4%;
     color: blue;
+    margin: 5%;
 }
 
 #about-header {
-    text-align: center;
+    
     font-size: .75em;
     letter-spacing: 2px;
 }
 
-#about-header p {
-    margin: 0;
-    padding: .5% 0;
-}
 
 /*----------------------------Line Up Exmaples-----*/
 
 .line-up {
-    margin: auto;  
+    text-align: center;
+    margin: 3%;
 }
 
 .line-up h5 {
@@ -262,11 +256,19 @@ header {
 
 .line-up ul {
     text-align: center;
+    list-style-type: none;
 }
 
 .line-up li {
     font-style: italic;
 }
+
+.for-more-info {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 1em;
+}
+
 /*----------------------------About Thirds-----*/
 
 #about-thirds {
@@ -432,7 +434,7 @@ footer {
 /*-----Social Media Account----*/
 
 .social {
-   margin: 2% 0 0 10%;
+   margin: 2% 0 0 5%;
 }
 
 .social p {
@@ -455,7 +457,7 @@ footer {
 /*---------Navigation on footer section--------*/
 
 .navigate-footer {
-   margin: 0 0 2% 10%;
+   margin: 0 0 2% 5%;
 }
 
 .navigate-footer p {
@@ -479,7 +481,7 @@ footer a {
     float: right;
     position: relative;
     bottom: 30%;
-    right: 10%;
+    right: 5%;
 }
 
 /*------------------------------------------------------------------------------------Media Query----------*/
