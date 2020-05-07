@@ -28,7 +28,7 @@ header {
 
 #logo {
     float: left;
-    padding-left: 1.5vw;
+    padding-left: 5%;
     font-size: 2em;
     margin-top: 3vw;
     color: white;
@@ -37,7 +37,7 @@ header {
 #nav {
     float: right;
     margin-top: 3vw;
-    padding-right: 1vw; 
+    padding-right: 5%; 
 }
 
 #nav li {
@@ -153,7 +153,7 @@ header {
 }
 
 .main-image {
-    background-image: url("../img/wedding_performance.jpg");
+    background-image: url("../img/stage_performance.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -201,7 +201,6 @@ header {
 
 .about-img-container {
     height: 800px;
-    width: 100%;
     overflow: hidden;
     position: relative;
     margin: 0 auto;
@@ -212,7 +211,7 @@ header {
     background: url("../img/full_band.jpg");
     background-size: cover;
     background-position: center center;
-    height: 90%;
+    height: 100%;
     width: auto;
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -232,25 +231,42 @@ header {
 /*----------------------------Main about-----*/
 
 #about {
-    height: 350px;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    z-index: 2;
-    padding-right: 5%;
-    padding-left: 5%;
+    padding: 5% 4%;
+    color: blue;
 }
 
 #about-header {
-    margin: 0 auto;
-    width: auto;
-    height: 100%;
     text-align: center;
-    z-index: 1;
-    color: blue;
     font-size: .75em;
     letter-spacing: 2px;
 }
+
+#about-header p {
+    margin: 0;
+}
+
+/*----------------------------Line Up Exmaples-----*/
+
+.line-up {
+    margin: auto;  
+}
+
+.line-up h5 {
+    text-align: center;
+}
+
+.line-up p {
+    font-weight: 600;
+}
+
+.line-up ul {
+    text-align: center;
+}
+
+.line-up li {
+    font-style: italic;
+}
+/*----------------------------About Thirds-----*/
 
 #about-thirds {
     height: 400px;
