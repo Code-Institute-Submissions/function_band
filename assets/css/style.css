@@ -243,6 +243,7 @@ header {
 
 #about-header p {
     margin: 0;
+    padding: .5% 0;
 }
 
 /*----------------------------Line Up Exmaples-----*/
@@ -419,55 +420,66 @@ header {
 
 /*----------------------------------Footer-----*/
 
-#trustpilot {
-    width: 100%;
-    height: 200px;
-    padding-top: 3%;
+footer {
+    height: 220px;
+    background:  linear-gradient(rgba(150, 33, 228, 0.568),  rgba(255, 0, 0, 0.45)), url(../img/wedding_venue.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
 }
 
-.trust-pilot-call-to-action {
-    text-align: center;
-    font-size: 1.25em;
-    font-weight: 400;
-
-}
-
-.trust-pilot-call-to-action p {
-    margin: 0 auto;
-    padding-bottom: 2%;
-}
-
-
-.trust-pilot-call-to-action i {
-    letter-spacing: .5em;
-    font-size: .50em;
-    color: #17b32c;  
-    -webkit-text-stroke: .5px grey;
-}
-
-.btn-trustpilot {
-    margin: 0 auto;
-}
-
+/*-----Social Media Account----*/
 
 .social {
-    text-align: center;
-    padding: 2% 0;
+   margin: 2% 0 0 10%;
 }
 
-.social h4 {
-    text-align: center;
+.social p {
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    margin: 0;
+}
+.social i {
+    color: white;
+    letter-spacing: 20px;
     font-size: 1.5em;
-    color: grey;
 }
 .social li {
     display: inline;
+    color: white;
 }
 
-.social a {
-    font-size: 1.75em;
-    padding: 0 5%;
-    color: grey;
+
+/*---------Navigation on footer section--------*/
+
+.navigate-footer {
+   margin: 0 0 2% 10%;
+}
+
+.navigate-footer p {
+    color: white;
+    font-weight: 600;
+    margin: 0;
+}
+
+.navigate-footer li {
+    list-style-type: none;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright {
+    color: white;
+    float: right;
+    position: relative;
+    bottom: 30%;
+    right: 10%;
 }
 
 /*------------------------------------------------------------------------------------Media Query----------*/
