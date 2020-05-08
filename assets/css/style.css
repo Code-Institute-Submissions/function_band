@@ -344,6 +344,8 @@ hr {
 
 /*-----Contact Page-----*/
 
+/*------Form------*/
+
 #contact-nav {
     position: absolute;
     z-index: 1;
@@ -370,21 +372,21 @@ hr {
 }
 
 .contact-us-form h2 {
-  color: white;
-  text-align: center;
+    color: white;
+    text-align: center;
 }
 
 .text-input {
-  background-color: transparent;
-  color: white;
-  width: 100%;
-  margin: .5% 0 1%;
-  border: 1px solid white;
-  border-radius: 2px;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    margin: .5% 0 1%;
+    border: 1px solid white;
+    border-radius: 2px;
 }
 
 .text-input:hover {
-  border-color: #f16c6b;
+    border-color: #f16c6b;
 }
 
 textarea {
@@ -401,21 +403,21 @@ textarea {
 
 /*------------Contact Us Completed Form-------------*/
 
-.contact-us-form-completed {
-  margin-top: 200px;
-  color: #fff;
-  background-color: rgba(0, 140, 65, 0.6);
-  max-width: 600px;
-  position: absolute;
-  left: 25%;
-  padding: 30px;
-  clear: left;
+.contact-complete {
+    background-color: rgba(0, 140, 65, 0.8);
+    width: 50%;
+    height: auto;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 25%;
 }
 
-.contact-us-form-completed {
-  color: white;
-  margin-bottom: 20px;
-  text-align: center;
+.contact-complete p {
+    font-size: 2em;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 4%;
 }
 
 /*----------------------------------Footer-----*/
