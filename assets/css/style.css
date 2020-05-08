@@ -223,27 +223,29 @@ header {
     }
 }
 
-.about-text-box {
+#about-text-box {
     width: 40%;
-    height: 30%;
+    height: auto;
     position: absolute;
     top: 45%;
     right: 10%;
     background-color: rgba(56, 100, 247, .9);
-}
-
-.about-text-box h4 {
     color: white;
     text-align: center;
 }
 
+#about-text-box p {
+    padding: 5%;
+}
+
+
 /*----------------------------Main about-----*/
 
-.about-us-section {
+#about-us-section {
     margin: 5% 5% 0 5%;
 }
 
-.about-us-section p {
+#about-us-section p {
     letter-spacing: 1px;
 }
 
@@ -252,7 +254,6 @@ header {
 .member-profile {
     margin: 5% 5% 0 5%;
 }
-
 
 /*----------------------------Line Up Exmaples-----*/
 
