@@ -359,16 +359,18 @@ hr {
 }
 
 .contact-us-form {
-  width: 50%;
-  color: #fff;
-  background-color: rgba(60, 60, 60, 0.6);
-  position: absolute;
-  padding: 3%;
+    width: 50%;
+    height: auto;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    position: absolute;
+    padding: 2%;
+    margin-top: 10%;
+    margin-left: 25%;
 }
 
 .contact-us-form h2 {
   color: white;
-  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -376,8 +378,7 @@ hr {
   background-color: transparent;
   color: white;
   width: 100%;
-  height: 25px;
-  margin: 5px 0 20px;
+  margin: .5% 0 1%;
   border: 1px solid white;
   border-radius: 2px;
 }
@@ -389,6 +390,13 @@ hr {
 textarea {
     min-height: 100px;
     max-height: 200px;
+}
+
+.submit {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 2%;
 }
 
 /*------------Contact Us Completed Form-------------*/
