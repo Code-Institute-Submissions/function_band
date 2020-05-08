@@ -15,7 +15,7 @@ body {
     text-transform: uppercase;
 }
 
-/*-------------------------------------------------header----*/ 
+/*----header----*/ 
 
 header {
     font-family: "Baloo Bhaina 2", sans-serif;
@@ -54,9 +54,9 @@ header {
     border: 1px solid white;
 }
 
-/*----------------------------Hero Image-----*/
+/*--------Hero Image-----*/
 
-.hero-container {
+#hero-container {
     height: 800px;
     width: 100%;
     overflow: hidden;
@@ -86,6 +86,9 @@ header {
     }
   }
 
+
+/*----Caption within Hero image-----*/
+
 .hero-caption {
     position: absolute;
     top: 50%;
@@ -100,54 +103,40 @@ header {
 }
 
 .hero-caption h2 {
-    font-size: 2em;
+    font-size: 1.75em;
     padding-top: 5%;
-}
-
-.hero-caption p {
-    font-size: 1em;
 }
 
 .btn-enquire {
     font-family: "Baloo Bhaina 2";
-    z-index: 1;
     margin-bottom: 8px;
 }
 
-/*----------------------------Main-----*/
+/*------Main-----*/
 
 #main {
-    height: 350px;
-    width: 100%;
+    height: auto;
     position: relative;
     overflow: hidden;
-    margin: 0 auto;
-    padding-top: 5%;
-    padding-right: 5%;
-    padding-left: 5%;
+    margin: 5%;
 }
 
-#main-header {
+#main-text {
     margin: 0 auto;
-    width: auto;
-    height: 100%;
     text-align: center;
-    z-index: 1;
     color: blue;
     font-size: 1.25em;
     letter-spacing: 2px;
 }
 
- hr {
+hr {
     border: blue 1px solid;
- }
+}
 
 .main-image-container {
     height: 550px;
-    width: 100%;
     overflow: hidden;
     position: relative;
-    padding-top: 2%;
 }
 
 .main-image {
@@ -157,11 +146,10 @@ header {
     background-repeat: no-repeat;
     height: 100%;
     width: auto;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0 5% 5% 5%;
 }
 
-/*------------------------------Reviews-----*/
+/*------Reviews-----*/
 
 .review-container {
     width: 75%;
@@ -170,7 +158,7 @@ header {
 }
 
 .individual-review  {
-    margin: 5%;
+    margin: 10%;
 }
 
 .individual-review h4 {
@@ -185,20 +173,19 @@ header {
 
 .individual-review i {
     text-align-last: center;
-    padding: 0;
     letter-spacing: .5em;
     font-size: .75em;
     color: #FEE725;    
     -webkit-text-stroke: .5px grey; 
 }
-/*---------------------------------------------------------------About Page-----*/
-/*-------------About Image-----*/
+/*-------About Page-----*/
+
+/*-------About Image-----*/
 
 .about-img-container {
     height: 800px;
     overflow: hidden;
     position: relative;
-    margin: 0 auto;
     z-index: -2;
   }
 
@@ -238,8 +225,7 @@ header {
     padding: 5%;
 }
 
-
-/*----------------------------Main about-----*/
+/*--------Main about-----*/
 
 #about-us-section {
     margin: 5% 5% 0 5%;
@@ -251,21 +237,21 @@ header {
 
 /*----Member profiles-----*/
 
-.member-profile {
+#member-profile {
     margin: 5% 5% 0 5%;
 }
 
-/*----------------------------Line Up Exmaples-----*/
+/*------Line Up Exmaples-----*/
 
-.line-up {
+#line-up {
     margin: 5%;
 }
 
-.line-up p {
+#line-up p {
     letter-spacing: 1px;
 }
 
-/*---------For more information on about page---------*/
+/*------For more information on about page------*/
 
 .for-more-info {
     text-align: center;
@@ -274,7 +260,26 @@ header {
     font-size: 1em;
 }
 
-/*----------------------------About Thirds-----*/
+/*-------Gallery------*/
+
+.gallery_nav {
+    position: absolute;  
+}
+
+#gallery-background {
+    height: 150px;
+    overflow: hidden;
+}
+
+.background-texture {
+    background-image: url("../img/tecture.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70%;
+}
+
+/*------About Thirds-----*/
 
 #about-thirds {
     height: 400px;
@@ -337,53 +342,28 @@ header {
     opacity:0.8;
 }
 
-/*-----------------------------------------------------------------------Gallery---*/
+/*-----Contact Page-----*/
 
-.gallery_nav {
-    position: absolute;  
-}
-
-#gallery-background {
-    width: 100%;
-    height: 150px;
-    overflow: hidden;
-}
-
-.background-texture {
-    background-image: url("../img/tecture.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 70%;
-}
-
-/*------------------------------------------------------------------------------Contact Page-----*/
-
-.contact-nav {
+#contact-nav {
     position: absolute;
     z-index: 1;
 }
 
-.form-section {
+.form {
     height: 800px;
-    width: 100%;
     margin: 0 auto;
     background: url(../img/wedding_band.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     opacity: .8;
 }
 
 .contact-us-form {
-  margin-top: 100px;
+  width: 50%;
   color: #fff;
   background-color: rgba(60, 60, 60, 0.6);
-  max-width: 600px;
   position: absolute;
-  left: 25%;
-  padding: 30px;
-  clear: left;
+  padding: 3%;
 }
 
 .contact-us-form h2 {
@@ -404,6 +384,11 @@ header {
 
 .text-input:hover {
   border-color: #f16c6b;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
 }
 
 /*------------Contact Us Completed Form-------------*/
@@ -489,178 +474,4 @@ footer a {
     position: relative;
     bottom: 30%;
     right: 5%;
-}
-
-/*------------------------------------------------------------------------------------Media Query----------*/
-
-@media only screen and (max-width: 1024px) {
-    
-    .logo {
-        font-size: .5em;
-    }
-
-    #nav a {
-        font-size: 1em;
-    }
-
-    /*------------------------------Hero Caption-----*/
-
-    .hero-caption {
-        width: 50%;
-        left: 25%;
-    }
-    
-    .hero-caption h2 {
-        font-size: 1.5em;
-    }
-    
-    .hero-caption p {
-        font-size: .75em;
-    }
-
-    /*------------------------------Main Section-----*/
-    #main-header {
-        font-size: 1.10em;
-    }
-
-    /*------------------------------About Section-----*/
-    
-    #about-header {
-        font-size: .65em;
-    }
-
-}
-
-
-@media only screen and (max-width: 768px) {
-    
-    #logo {
-        float: none;
-        padding: 0;
-        text-align: center;
-    }
-    
-    #nav {
-        float: none;
-        margin: 0;
-        padding-right: 0;
-        text-align: center;
-    }
-    
-    #nav a {
-        font-size: 1em;
-    }
-
-      /*------------------------------About Section-----*/
-
-      #about-header {
-        font-size: .60em;
-    }
-
-    #about-thirds {
-        height: 800px;
-    }
-    
-    .about-thirds-img-left{
-        float: none;
-        margin: 0 auto;
-        display: block;
-        height: 50%;
-        width: 100%;
-    }
-    
-    .about-thirds-img-center{
-        display: none;
-    }
-    
-    .about-thirds-img-right{
-        display: block;
-        margin: 0 auto;
-        height: 50%;
-        width: 100%;
-    }
-    
-}
-    
-@media only screen and (max-width: 650px) {
-
-    #main-header
-    h4, 
-    hr {
-     display: none;
-    }
-
-    /*------------------------------About Section-----*/
-     
-    #about-header {
-        font-size: .50em;        
-    }
-
-}
-
-@media only screen and (max-width: 480px) {
-    
-    .hero-caption {
-        width: 55%;
-        left: 24%;
-    }
-    
-    .hero-caption h2 {
-        font-size: 1em;
-    }
-    
-    .hero-caption p {
-        font-size: .75em;
-    }
-    
-    #main-header {
-        padding-top: 7%;
-        font-size: .85em;
-    }
-
-    .review-container {
-        width: 80%;
-    }
-
-/*------------------------------About Section-----*/
-     
-    #about-header {
-        font-size: .45em;        
-   }
-
-   #about-thirds {
-        height: 400px;
-   }
-       
-   .about-thirds-img-left{
-        float: none;
-        margin: 0 auto;
-        display: block;
-        height: 100%;
-        width: 100%;
-    }
-
-   .about-thirds-img-right{
-    display: none;
-    }
-
-}
-
-@media only screen and (max-width: 320px) {
-
-    .hero-caption p {
-        display: none;
-    }
-    
-    #main-header {
-        padding-top: 7%;
-        font-size: .80em;
-    }
-
-    /*------------------------------About Section-----*/
-     
-    #about-header {
-    font-size: .40em;        
-    }
-
 }
