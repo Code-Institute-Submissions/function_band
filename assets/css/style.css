@@ -401,7 +401,7 @@ textarea {
     padding: 2%;
 }
 
-/*------------Contact Us Completed Form-------------*/
+/*-------Contact Us Completed Form------*/
 
 .contact-complete {
     background-color: rgba(0, 140, 65, 0.8);
@@ -420,68 +420,85 @@ textarea {
     padding: 4%;
 }
 
-/*----------------------------------Footer-----*/
+/*----Footer Section*----*/
 
-footer {
+.site-footer {
     height: 220px;
-    background:  linear-gradient(rgba(150, 33, 228, 0.568),  rgba(255, 0, 0, 0.45)), url(../img/wedding_venue.jpg);
+    background:  linear-gradient(rgba(150, 33, 228, 0.5),  rgba(255, 0, 0, 0.5)), url(../img/wedding_venue.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    margin-top: 5%;
-}
-
-/*-----Social Media Account----*/
-
-.social {
-   margin: 2% 0 0 5%;
-}
-
-.social p {
+    font-size: 2em;
     color: white;
-    font-size: 1em;
-    font-weight: 600;
+}
+
+.footer-container {
+    margin-top: 2%;
+    color: white;
+}
+
+.footer-social {
+    margin-bottom: 2%;
+}
+.footer-social p {
+    font-size: .50em;
     margin: 0;
+    border-left: solid white .50px;
+    display: inline-block;
+    padding-left: 1%;
 }
 
-.social i {
-    color: white;
-    letter-spacing: 20px;
-    font-size: 1.5em;
-}
-.social li {
-    display: inline;
-    color: white;
-}
-
-
-/*---------Navigation on footer section--------*/
-
-.navigate-footer {
-   margin: 0 0 2% 5%;
-}
-
-.navigate-footer p {
-    color: white;
-    font-weight: 600;
-    margin: 0;
-}
-
-.navigate-footer li {
+.footer-social li {
     list-style-type: none;
-    color: white;
+    display: inline-block;
 }
 
-footer a {
-    text-decoration: none;
+.footer-social a {
     color: white;
+    letter-spacing: 6px;
+}
+
+.footer-social i {
+    font-size: .50em;
+}
+.footer-social ul {
+    margin: 0;
+    text-align: center;
+}
+
+.footer-hr {
+    border: white solid .5px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*----Footer navigation---*/
+
+.footer-nav {
+    margin-top: 2%;
+}
+
+.footer-nav li {
+    list-style-type: none;
+    display: inline;
+}
+
+.footer-nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.footer-nav a {
+    color: white;
+    font-size: .50em;
+    padding-left: 5%;
 }
 
 .copyright {
-    color: white;
+    font-size: .45em;
+    margin: 0;
     float: right;
-    position: relative;
-    bottom: 30%;
-    right: 5%;
+    padding-right: 5%;
 }
