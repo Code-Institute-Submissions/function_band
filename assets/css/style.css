@@ -124,13 +124,13 @@ header {
 #main-text {
     margin: 0 auto;
     text-align: center;
-    color: blue;
+    color: #0000cc;
     font-size: 1.25em;
     letter-spacing: 2px;
 }
 
 hr {
-    border: blue 1px solid;
+    border: #0000cc 1px solid;
 }
 
 .main-image-container {
@@ -152,7 +152,7 @@ hr {
 /*------Reviews-----*/
 
 .reviews i {
-    color: grey;
+    color: #e6e600;
     font-size: 1.50em;
 }
 
@@ -160,8 +160,8 @@ hr {
     padding-top: 5%;
     padding-bottom: 5%;
     text-align: center;
+    color: black;
 }
-
 
 /*-------About Page-----*/
 
@@ -213,17 +213,20 @@ hr {
 /*--------Main about-----*/
 
 #about-us-section {
-    margin: 5% 5% 0 5%;
+    margin: 5%;
 }
 
 #about-us-section p {
     letter-spacing: 1px;
 }
 
-/*----Member profiles-----*/
+#about hr {
+    border: grey solid 1px;
+}
 
-#member-profile {
-    margin: 5% 5% 0 5%;
+.about-video {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /*------Line Up Exmaples-----*/
