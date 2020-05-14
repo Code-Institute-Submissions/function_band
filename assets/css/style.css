@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600;700;800&display=swap');
 
-
 body {
     height: 100%;
     width: 100%;
@@ -65,7 +64,7 @@ header {
     margin: 0 auto;
   }
 
-  .hero-image {
+.hero-image {
     background: url(../img/partyperformance.jpg);
     background-size: cover;
     background-position: center center;
@@ -85,7 +84,6 @@ header {
       transform: scale(1.055);
     }
   }
-
 
 /*----Caption within Hero image-----*/
 
@@ -225,8 +223,7 @@ hr {
 }
 
 .about-video {
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-left: 5%;
 }
 
 /*------Line Up Exmaples-----*/
@@ -443,3 +440,101 @@ textarea {
     float: right;
     padding-right: 5%;
 }
+
+
+/*---Media Query----*/
+
+@media only screen and (max-width: 900px) {
+
+    #logo {
+        float: none;
+        text-align: center;
+        padding: 0;
+    }
+
+    #nav {
+        float: none; 
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    
+    .hero-caption h2 {
+        font-size: 1.50em;
+    }
+
+    .hero-caption p {
+        font-size: .75em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .hero-caption h2 {
+        font-size: 1em;
+    }
+
+    .hero-caption p {
+        font-size: .65em;
+    }
+
+    #logo {
+        font-size: 1.25em;
+    }
+
+    #nav a {
+        font-size: 1em;
+    }
+
+    #main-text p {
+        font-size: .75em;
+    }  
+
+    #main-text h4 {
+        font-size: 1em;
+    }
+
+    .site-footer {
+        font-size: 1.50em;
+        margin: 0 auto;
+        padding-right: 5%;
+        height: 200px;
+    }
+} 
+
+
+@media only screen and (max-width: 300px) {
+    
+    .hero-caption {
+        width: 50%;
+        left: 25%;
+    }
+
+    .hero-caption p {
+        font-size: .50em;
+    }
+
+    #main-text p {
+        font-size: .50em;
+    }  
+
+    #main-text h4 {
+        font-size: .75em;
+    }
+
+    .site-footer {
+        font-size: 1em;
+        margin: 0 auto;
+        height: 150px;
+    }
+
+    .footer-hr {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+} 
