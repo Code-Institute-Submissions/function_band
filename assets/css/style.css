@@ -62,7 +62,7 @@ header {
     overflow: hidden;
     position: relative;
     margin: 0 auto;
-  }
+}
 
 .hero-image {
     background: url(../img/partyperformance.jpg);
@@ -83,7 +83,7 @@ header {
     to{
       transform: scale(1.055);
     }
-  }
+}
 
 /*----Caption within Hero image-----*/
 
@@ -172,7 +172,7 @@ hr {
     z-index: -2;
   }
 
-  .about-img {
+.about-img {
     background: linear-gradient(rgba(150, 33, 228, 0.568),  rgba(255, 0, 0, 0.45)), url("../img/full_band.jpg");
     background-size: cover;
     background-position: center center;
@@ -277,7 +277,6 @@ hr {
     float: right;
     padding-bottom: 3%;
 }
-
 
 /*-----Contact Page-----*/
 
@@ -441,7 +440,6 @@ textarea {
     padding-right: 5%;
 }
 
-
 /*---Media Query----*/
 
 @media only screen and (max-width: 900px) {
@@ -562,8 +560,7 @@ textarea {
         height: 100px;
     }
 
-} 
-
+}
 
 @media only screen and (max-width: 300px) {
     
