@@ -16,7 +16,7 @@ User Story:
 As a user, I want to be able to easily navigate the site, so that I can get to the page I need. 
 
 ![Image of the header section]
-(function_band/userstoryimg/navbar.png)
+(userstoryimg/navbar.png)
 
 User Story: 
 As a user, I want to read an introduction of the band before further entering the site, so that I get an impression of the band first. 
