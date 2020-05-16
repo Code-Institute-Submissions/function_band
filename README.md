@@ -8,39 +8,31 @@ The sites purpose if to allow more traffic into the site. With links to social m
 
 ## UX 
 
-Home Page
-Epic: 
+### User Stories
+
+Home Page:
+
 As a user, I want to have a collection of material easily accessible when first entering the site so that I can quickly navigate to what I require for my event.
 
-User Story:
 As a user, I want to be able to easily navigate the site, so that I can get to the page I need. 
 
-![Image of the header section]
-(userstoryimg/navbar.png)
+<img src="userstoryimg/navbar.png" alt="Image of the navigation tool bar" style="align: center;">
 
-<img src="userstoryimg/navbar.png" style="align: center;">
-
-User Story: 
 As a user, I want to read an introduction of the band before further entering the site, so that I get an impression of the band first. 
 
-User Story: 
+<img src="userstoryimg/header_information.png" alt="Image of the hero image and text" style="align:center;">
+
 As a user, I want to view reviews from previous customers, so that I can determine if the band is worth hiring. 
 
-User Story: 
+<img src="userstoryimg/social_media.png" alt="Image of the review section" style="align:center;">
+
 As a user, I want to access social media accounts, so that I can review their social media. 
 
-Implementation: 
-User will need a navigation bar with links to the other pages to navigate the website 
-User will require a quick point of access to the contact page to enquire on the bands availability
-User will require a short written introduction on the band itself
-User will require a selection of positive reviews left by previous customers of the band
-User will require links to the bands own social media accounts
+<img src="userstoryimg/social_media.png" alt="Image of footer section" style="align:center;">
 
-About Page
-Epic: 
-As a user, if I was interested in the band, I want to read more about the band itself and its formation so that I get a better rounded understanding of the band. 
 
-User Story:
+About Page:
+
 As a user, I need to read about the bands formation, so that I have more knowledge of the band
 
 User Story: 
