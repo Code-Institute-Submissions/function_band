@@ -1,20 +1,12 @@
 # The Function Band
- 
-The Funcation band is the most respected and hired band in the Greenwich and Lewisham area. The members of the band come from a variety of different backgrounds, performing alongside notable and respected artists in the industry. 
-The band varies in size and in style and coule potentially be available for your next event. The Funcation Band is able to cater to the event, the individual just needs to get in touch with their specificications. 
 
-We are looking to span throughout London and potentially around the UK, so get in touch and we can provide a direct quote. Read about us on Trustpilot page, our past customers have left kind reviews of their experiences. 
+Milestone Project #1 - User Centeric Frontend Development 
 
+The Function band is the most respected and hired band in the Greenwich and Lewisham area. This site provides deep insight into the bands style for new and past users to experience the band from the comfort of their mobile or computer. This site is to introduce the band to prospective event creators who require a band with a variety in style and performance. This site will provide information on the bands formation, background and history of the members, gallery of photos and a video of a past performance. Users will be able to read tesitimonials of the bands previous customers as well as further enquire on the bands availability and pricing information. 
 
-## UX
- 
-The website is for event planners, wedding organizers, and individuals looking for a function band to perform at their event. 
+The sites purpose if to allow more traffic into the site. With links to social media accounts and review sites such as Trustpilot, new and past users will not be able to quickly and easily get in touch with the band at their convenience for their event queries. The band is currently local to the Greenwich and Lewisham area, but the band would like to expand further into London and potentially throughout the UK.
 
-What I want to achieve for the band is to bring in more traffic, with links to social media, testimonials from previous customers and accessabillity to a crediable review platform, I want The Function Band be able to get users to quickly and easy get in touch with the band for any of their future events. The band is currently local to the Greenwich and Lewisham area, but the band would like to expand further into London and potentially throughout the UK. 
-
-I want the page to be consistent in style, clean and straight to the message. The indivduals entering this site normally are looking for a band that will be suitbale for thier event. The site will be a reflection of the style of the band. 
-
-Below is a series of user stories per page for the site: 
+## UX 
 
 Home Page
 Epic: 
@@ -22,6 +14,9 @@ As a user, I want to have a collection of material easily accessible when first 
 
 User Story:
 As a user, I want to be able to easily navigate the site, so that I can get to the page I need. 
+
+![Image of the header section]
+(function_band/userstoryimg/navbar.png)
 
 User Story: 
 As a user, I want to read an introduction of the band before further entering the site, so that I get an impression of the band first. 
