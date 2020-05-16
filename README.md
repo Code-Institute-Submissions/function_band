@@ -18,6 +18,8 @@ As a user, I want to be able to easily navigate the site, so that I can get to t
 ![Image of the header section]
 (userstoryimg/navbar.png)
 
+<img src="userstoryimg/navbar.png" style="align: center;">
+
 User Story: 
 As a user, I want to read an introduction of the band before further entering the site, so that I get an impression of the band first. 
 
