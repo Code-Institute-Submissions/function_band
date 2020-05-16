@@ -24,67 +24,51 @@ As a user, I want to read an introduction of the band before further entering th
 
 As a user, I want to view reviews from previous customers, so that I can determine if the band is worth hiring. 
 
-<img src="userstoryimg/social_media.png" alt="Image of the review section" style="align:center;">
+<img src="userstoryimg/user_reviews.png" alt="Image of the review section" style="align:center;">
 
 As a user, I want to access social media accounts, so that I can review their social media. 
 
 <img src="userstoryimg/social_media.png" alt="Image of footer section" style="align:center;">
 
-
 About Page:
 
 As a user, I need to read about the bands formation, so that I have more knowledge of the band
-
-User Story: 
-As a user, I want to know the bands pricing, so I know if the band is affordable for my event
-
-User Story: 
 As a user, I want to read about the bands different styles, so I know if the band is suitable for my event
 
-Implementation: 
-User will need a written about us section 
-The user will need a list of the bands pricing for however sized band that is required for an event
-The user will need a list of the bands styles 
+<img src="userstoryimg/about_us.png" alt="Image of band about us section" style="align:center;">
 
-Gallery Page 
-Epic:
-As a user, I want to view images and videos of the band performing at a variety of different events. 
+As a user, I want to know the bands pricing, so I know if the band is affordable for my event
 
-User Story:
-As a user, I want to view photos, so that I can determine if I like the look of the band
+<img src="userstoryimg/example_line_up.png" alt="Image of example line ups" style="align:center;">
+<img src="userstoryimg/get_in_touch.png" alt="Image of get in touch statement" style="align:center">
 
-User Story: 
 As a user, I want to listen/watch a video of the band performing, so that I like the sound of the band
 
-Implementation: 
-The user will need a clean line of photos to view
-The user will need a video of the band performing at an event 
+<img src="userstoryimg/video.png" alt="Image of the video feature" style="align:center;">
 
-Get in Touch Page
-Epic: 
-As a user, I need to get in touch with the band with my contact details as well as a short description of my needs for the event, so that the band can get back in touch if they will be suitable for my event. 
+Gallery Page: 
 
-User Story: 
+As a user, I want to view photos, so that I can determine if I like the look of the band
+
+<img src="userstoryimg/gallery_img.png" alt="Image of the gallery section" style="align:center;">
+
+Get in Touch Page:
+
 As a user, I want to supply my contact information so that the band can get back in touch with me 
 
-User Story: 
+<img src="userstoryimg/contact_info.png" alt="Image of form details" style="align:center;">
+
 As a user, I want to write a description of the event, so that I can provide in detail of what I am expecting for the band
 
-User Story:
-As a user, I want to be able to choose from a list of pre-selected styles of music, so I know that the band would be able to accomodate for my event 
+<img src="userstoryimg/message.png" alt="Image of message section on form" style="align:center;">
 
-User Story:
 As a user, I want to submit the form once completed, so that the band can get back in touch
 
-User Story: 
+<img src="userstoryimg/submit.png" alt="Image of the submit button" style="align:center">
+
 As a user, I want to know if my form has been submitted successfully, for peace of mind 
 
-Implementation: 
-User will need a section to write in their First Name, Last Name and Email 
-User will need a textarea to supply more details of the events 
-User will need a selection of styles of music provided for them to choose from 
-User will need a submission button 
-User will need an indicator that the form has been submitted successfully 
+<img src="userstoryimg/confirmation.png" alt="Image of form submitted confirmation" style="align:cetner;">
 
 ## Features
 
