@@ -12,8 +12,6 @@ The sites purpose if to allow more traffic into the site. With links to social m
 
 Home Page:
 
-As a user, I want to have a collection of material easily accessible when first entering the site so that I can quickly navigate to what I require for my event.
-
 As a user, I want to be able to easily navigate the site, so that I can get to the page I need. 
 
 <img src="userstoryimg/navbar.png" alt="Image of the navigation tool bar" style="align: center;">
@@ -70,98 +68,151 @@ As a user, I want to know if my form has been submitted successfully, for peace 
 
 <img src="userstoryimg/confirmation.png" alt="Image of form submitted confirmation" style="align:cetner;">
 
-## Features
-
-Home Page
-When entering the site, you are instantly captured by a large image of the band performing with a direct link to the page to submit a contact form for the band to get in touch. The first page will have a breif introduction of the band and top reviews left by previous customers on the band. 
-
-About Page
-The about page will provide further information on the band. Users will also be able to read more about the bands formation and the key members of the band, their background and perfered style of music. The about page will also hold pricing information in which the users can make a clear determination if the band is within their price range.
-
-Gallery Page
-The gallery page will provide a series of images and videos that will capture the essence of the bands demanor and style. A video link at the bottom of the page will give users a chance to have a listen to the band performing. 
-
-Contact Page
-The contact page will be a straight forward contact form for users to get in touch. The basic information will be required to complete the form and users can also leave a message on specific requirements or queries for the band. Once the form is submitted a clear set of text will confirm that the page has been submitted successfully. 
-
-Nav and Footer
-The entire site will have a navigation bar at the top and a footer at the bottom which will provide them with important links. The nav bar will allow the users to easily navigate the website and the footer will containe links to the Trustpilot site for customers to read and leave reviews of the band as well as links to the social media accounts of the band. 
+## Features 
 
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-Home Page Features
-1: Users are able to navigate the site by using the navigation bar at the top of the page that links to each of the sites pages
-2: A short descriptive introduction will allow users to determine if the band is suitable for the events needs
-3: A list of reviews will allow users to review and determine if they would like to use the band by reading the previous customer reviews
-4: A link to Trustpilot and a call to action will allow users to determine if they like the band by reading previous customer reviews on the Trustpilot site 
-5: Links to the band social media accounts will allow users to follow and research into the bands style by accessing their social media via these links 
-
-About Page Features
-1: The large image at the head of the page will allow users to be encouraged to read more into the band be scrolling through the page
-2: The description of the bands formation will allow users to understand and gain likability for the band
-3: A series of images and short descriptions of the bands cathing points will allow users to interact with the site as well as the user to determine a better understanding of the band
-
-Get in Touch Features: 
-1: The contact form will allow users to submit their details by entering them into the form so that the band can get back in touch 
-2: The submittion button will allow users to submit the form to the band
-3: Once submittion, the page will change and confirm to the users that the form has been submitted successfully 
+1. Users are able to navigate the site to the additional pages
+2. A call to action button that links directly to the Get in Touch page
+3. A link to the trustpilot review site, which allows users to read and write reviews of the band
+4. Links to the bands social media accounts - users are able to follow and keep up to date with latest news and music from the band
+5. A video of the bands past performance
+6. A call to action link to enourage users to get in touch for pricing information 
+7. A series of images of the band and past events
+8. Contact form for users to submit details of themselves and event
+9. A button allowing users to submit form once completed
 
 ### Features Left to Implement
 
-Gallery Page Features:
-1: A series of images which showcase highlights of past events the band has performed at
-2: Hoovering over each of the images will be a short description and details of the type of band and style that was playing so that the users will be more informed with each of the images
-3: A video at the bottom of the page will allow users to view and listen to the band to determine if they would enjoy the band performing at their event 
+In the future, I would like to implement the following:
+I would have like to added more details in the About Page on individual band members and photos of each of the members. 
+I would have liked to made the About Page more complex in style. 
+I would like to have made the site more interactive.
+
 
 ## Technologies Used
 
-HTML5 and CSS as the main languages to markup and style the pages of the site
-Bootstrap as a framework to design the buttons used in the page
-Font Awesome CDN to access icons used for the project, used for the stars in the reviews and the social media account icons 
-Google Fonts to use different styled fonts for the project 
+1. HTML
+2. CSS
+3. Bootstrap
+
+Mentions:
+Font Awesome
+Google Fonts
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+I believe the overall site has achieved the intended purposes designed for the user stories. Users are able to easily navigate through the site to the additional pages. There are clear call to actions that encourages users to direct straight to the Get in Touch section. The images and content provide clear information of the bands style and formation as well as a likeability factor. 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+1. Navigation Tool: 
+    1. 'The Function Band' logo directs back to the Home Page
+    2. Each of the links work appropriatly and directs to the correct pages
+    3. The box over the active pages hovers over the correct and active pages
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+2. Home page - call to action
+    1. Clicking the Enquire Now! button re-directs to the Get in Touch page
+    2. The page does not open in a new tab - re-directs instead
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+3. Responsiveness:
+    1. Each of the pages are responsive - using the Google Inspect tool 
+        1. I selected each of the pages and amended the width on the Responsive mobile tool
+    2. Deployed site is accessible on Google Chrome
+    3. Deployed site is accessible on Samsung Galaxy 9 plus, Google Pixel 2 and Iphone X. 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+4. Video Feature: 
+    1. Clicking the play button on video plays video
+    2. Video ends and does not replay
+    3. Video is able to be played on mobile devices
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+5. Social Links:
+    1. Selects Facebook icon and Facebook opens in a new tab
+    2. Selects Instagram icon and Instagram opens in a new tab
+    3. Selects Twitter icon and Twitter opens in a new tab
+    4. Selects Youtube icon and Youtube opens in a new tab
+
+6. Footer Navigation:
+    1. Selects About Us and opens page in a new tab
+    2. Selects Gallery and opens in a new tab
+    3. Selects Get in Touch and opens in a new tab
+    4. Selects Trustpilot and opens into the Trustpilot site
+    5. These steps are repeated on each of the sites footers
+
+7. Form: 
+    1. Submit form with no information - unable to do so without first and last name and email
+    2. Enter only First name and submit form - unable to do so without Last name and email details
+    3. Enter only Last name and submit form - unable to do so without First name and email details
+    4. Enter only email and submit form - unable to do so without first and last name details
+    5. Enter First and Last name and partial email detail (no @) and then submit form - unable to do so without the @ icon to complete email address
+    6. Enter Name and email correctly and submit form - details have been submitted correctly and page is re-directed to form submission confirmation
+    7. Message box - able to increase height of box and min and max height rule is implemented
+    8. Form is able to submit successfully with and without text within the message box
+    9. If the message exceeds the height, users are able to scroll to the top and bottom of their message
+
+
+Issues Found: 
+1. When site is opened on Safari, gallery width is larger than what is supposed to be - one of the images are out of line and skewed to the right
+2. When submitting form on the deployed site on a mobile device, users recieve a 405 Not Allowed error after submitting the form correctly
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+The site has been deployed using Github Pages, which is deployed directly from my Master branch. 
+The deployed site automically updates after every new commit to the master branch. 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+
+A majority of the written content has not been written by me. The content has been sourced from other function band sites.
+
+- The introduction text on the Home Page has been copied from the band the Brand New Groove's contact page:
+https://www.brandnewgroove.co.uk/
+
+- The text in the box when entering the About Us page was sourced from The Blue Rinse about us section:
+https://www.thebluerinse.co.uk/
+
+- The main set of text on the About Us page was sourced from the Ambassadro Band's about us section:
+http://www.ambassadorband.co.uk/party-band-london/
+
+- The example line up within the About Us page was sourced from The Function Band's site under the Showband page:
+https://www.thefunction.band/showband
+
+- The video within the About Us section was sourced from Youtube. The original performers are with The Function Band:
+https://youtu.be/nNy0-O26NIQ - "The Function Band Live at The Savoy"
+
+The code is original to me, however I have gained inspiration from previous mini projects that were compelted with Code Institute: 
+
+The Love Running Project - This was as a mini project with guided instructions from Code Institute:
+https://repl.it/@AprilHa/Love-Running
+
+The Resume Project - This mini project with the use of Bootstrap 4 was a guided instructed series from Code Institute. I've outlined in my comments in which features I have gained inspiration in my code from. 
+
+
+### Media
+The photos within the project are not of my own, but were sourced from other band sites:
+
+Images that were sourced [The Function Band's](https://www.thefunction.band/) website  are the below images:
+- Main Hero Image [Image](https://images.squarespace-cdn.com/content/v1/58d927b186e6c087a944d4f0/1551273156885-H99PLZ3XWKYPYA92IOZA/ke17ZwdGBToddI8pDm48kCe3HEdn2TSMtiXeWGlxJwd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYFM-v7jO0lurWrFubDiCW1NijbNUFECuZdfCfLpA8xjKknLkM0U3gruWGsBhc5_tQ/36_509A3987.jpg?format=2500w)
+
+
+
+Images that were sources from [The Mini Big Band's](http://www.theminibigband.co.uk/gallery/) website are the below images:
+
+- Couple Dancing [Image](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2018/07/cropped-Anniversaire-Jaeggi_web-311.jpg)
+- Event Hall [Image](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2017/09/Anna-and-James-958-1200x800.jpg)
+- Singer [Image](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2017/09/Anna-and-James-985-1200x800.jpg)
+- 
+
+
+- Full Band [Image](https://www.entertainersworldwide.com/graphics/products/cache/s_1200_800_4aa05b6a9a8363bbe6a4b8c6ef197179.jpg)
+- Band after performance [Image](https://thelondonfunctionband.com/sites/default/files/2018/alice-and-james-2018/7-piece-wedding-band-hertfordshire.jpg)
+- Lead Singer [Image](https://www.thelondonfunctionband.com/sites/default/files/styles/picture_text_blockbreakpoints_theme_lfb_mobile_2x/public/picturetextblock/lead-singer/lead-singer.jpg?itok=qgP6ceGt&timestamp=1578925082)
+- Backup Singers [Image](https://www.centralavenuefunctionband.com/wp-content/uploads/2019/08/home-bnr.jpg)
+- Trumpet Players [Image](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2014/07/minibig-p.jpg)
+
+
+
+### Acknowledgements
 
 I used Free Code Camp for guidance on the grid layout for the gallery page. 
 https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/
@@ -172,19 +223,6 @@ I had issues with understanding Git and pushing repositries to Github, so I used
 
 I deployed a static website and used this guideline from Treehouse on how to do this via Heroku:
 https://blog.teamtreehouse.com/deploy-static-site-heroku
-
-
-I grabbed inspriation for the style from the Love Running Mini Project that was completed with the Code Institute.
-
-
-### Media
-- The photos used in this site were obtained from ...
-
-
-
-
-### Acknowledgements
-
 - I received inspiration for this project from X
 
 As this is my first site that I have developed from start to finish, I found that generating the commit messages to Github were difficult for me to compose correctly. This guide from Joel Parker Henderson on Github cleared my understanding of how to write clear and consise commit messages. 
