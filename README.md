@@ -191,19 +191,25 @@ The Resume Project - This mini project with the use of Bootstrap 4 was a guided 
 ### Media
 The photos within the project are not of my own, but were sourced from other band sites:
 
-Images that were sourced from The Function Band's website [here](https://www.thefunction.band/)
+The Function Band's website [here](https://www.thefunction.band/)
 - [Main Hero Image](https://images.squarespace-cdn.com/content/v1/58d927b186e6c087a944d4f0/1551273156885-H99PLZ3XWKYPYA92IOZA/ke17ZwdGBToddI8pDm48kCe3HEdn2TSMtiXeWGlxJwd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UYFM-v7jO0lurWrFubDiCW1NijbNUFECuZdfCfLpA8xjKknLkM0U3gruWGsBhc5_tQ/36_509A3987.jpg?format=2500w)
 
-Images that were sources from The Mini Big Band's website [here](http://www.theminibigband.co.uk/gallery/)
+The Mini Big Band's website [here](http://www.theminibigband.co.uk/gallery/)
 - [Couple Dancing](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2018/07/cropped-Anniversaire-Jaeggi_web-311.jpg)
 - [Event Hall](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2017/09/Anna-and-James-958-1200x800.jpg)
 - [Singer](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2017/09/Anna-and-James-985-1200x800.jpg)
-- [Full Band](https://www.entertainersworldwide.com/graphics/products/cache/s_1200_800_4aa05b6a9a8363bbe6a4b8c6ef197179.jpg)
+- [Trumpet Players](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2014/07/minibig-p.jpg)
+
+The London Function Band's website [here](https://thelondonfunctionband.com/)
+- [Gutarist](https://thelondonfunctionband.com/sites/default/files/styles/photo_page_mobile_2x/public/2019/kimpton-fitzroy/The_London_Function_Band_Kimpton_Fitzroy_7.jpg?itok=Kl5V7Kah&timestamp=1562852073)
 - [Band after performance](https://thelondonfunctionband.com/sites/default/files/2018/alice-and-james-2018/7-piece-wedding-band-hertfordshire.jpg)
 - [Lead Singer](https://www.thelondonfunctionband.com/sites/default/files/styles/picture_text_blockbreakpoints_theme_lfb_mobile_2x/public/picturetextblock/lead-singer/lead-singer.jpg?itok=qgP6ceGt&timestamp=1578925082)
+
+Central Avenue Function Band's website [here](https://www.centralavenuefunctionband.com/)
 - [Backup Singers](https://www.centralavenuefunctionband.com/wp-content/uploads/2019/08/home-bnr.jpg)
-- [Trumpet Players](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2014/07/minibig-p.jpg)
-- [Gutarist](https://thelondonfunctionband.com/sites/default/files/styles/photo_page_mobile_2x/public/2019/kimpton-fitzroy/The_London_Function_Band_Kimpton_Fitzroy_7.jpg?itok=Kl5V7Kah&timestamp=1562852073)
+- [Full Band](https://www.entertainersworldwide.com/graphics/products/cache/s_1200_800_4aa05b6a9a8363bbe6a4b8c6ef197179.jpg)
+
+Misc Images Found on Google Images:
 - [Texture](https://image.freepik.com/free-photo/cement-wall-texture-background_76539-221.jpg)
 
 
