@@ -1,10 +1,15 @@
-# The Function Band
 <a name="intro"></a>
+
+# The Function Band
 
 ### Table of Contents
 1. [Introduction](#intro)
 2. [User Stories](#userstory)
 3. [Features](#features)
+4. [Technology](#tech)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+7. [Credits & Acknowledgements](#credits)
 
 Milestone Project #1 - User Centeric Frontend Development 
 
@@ -12,10 +17,12 @@ The Function band is the most respected and hired band in the Greenwich and Lewi
 
 The sites purpose if to allow more traffic into the site. With links to social media accounts and review sites such as Trustpilot, new and past users will not be able to quickly and easily get in touch with the band at their convenience for their event queries. The band is currently local to the Greenwich and Lewisham area, but the band would like to expand further into London and potentially throughout the UK.
 
+<a name="userstory"></a>
+
 ## UX 
 
 ### User Stories
-<a name="userstory"></a>
+
 As a user, I want to be able to easily navigate the site, so that I can get to the page I need. 
 
 <img src="userstoryimg/navbar.png" alt="Image of the navigation tool bar" style="align: center;">
@@ -66,8 +73,9 @@ As a user, I want to know if my form has been submitted successfully, for peace 
 
 <img src="userstoryimg/confirmation.png" alt="Image of form submitted confirmation" style="align:cetner;">
 
-## Features 
 <a name="features"></a>
+
+## Features 
 
 ### Existing Features
 
@@ -88,6 +96,7 @@ I would have like to added more details in the About Page on individual band mem
 I would have liked to made the About Page more complex in style. 
 I would like to have made the site more interactive.
 
+<a name="tech"></a>
 
 ## Technologies Used
 
@@ -98,6 +107,8 @@ I would like to have made the site more interactive.
 Mentions:
 Font Awesome
 Google Fonts
+
+<a name="testing"></a>
 
 ## Testing
 
@@ -151,10 +162,14 @@ Issues Found:
 1. When site is opened on Safari, gallery width is larger than what is supposed to be - one of the images are out of line and skewed to the right
 2. When submitting form on the deployed site on a mobile device, users recieve a 405 Not Allowed error after submitting the form correctly
 
+<a name="deployment"></a>
+
 ## Deployment
 
 The site has been deployed using Github Pages, which is deployed directly from my Master branch. 
 The deployed site automically updates after every new commit to the master branch. 
+
+<a name="credits"></a>
 
 ## Credits
 
