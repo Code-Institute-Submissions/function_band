@@ -10,8 +10,6 @@ The sites purpose if to allow more traffic into the site. With links to social m
 
 ### User Stories
 
-Home Page:
-
 As a user, I want to be able to easily navigate the site, so that I can get to the page I need. 
 
 <img src="userstoryimg/navbar.png" alt="Image of the navigation tool bar" style="align: center;">
@@ -28,8 +26,6 @@ As a user, I want to access social media accounts, so that I can review their so
 
 <img src="userstoryimg/social_media.png" alt="Image of footer section" style="align:center;">
 
-About Page:
-
 As a user, I need to read about the bands formation, so that I have more knowledge of the band
 As a user, I want to read about the bands different styles, so I know if the band is suitable for my event
 
@@ -44,13 +40,9 @@ As a user, I want to listen/watch a video of the band performing, so that I like
 
 <img src="userstoryimg/video.png" alt="Image of the video feature" style="align:center;">
 
-Gallery Page: 
-
 As a user, I want to view photos, so that I can determine if I like the look of the band
 
 <img src="userstoryimg/gallery_img.png" alt="Image of the gallery section" style="align:center;">
-
-Get in Touch Page:
 
 As a user, I want to supply my contact information so that the band can get back in touch with me 
 
@@ -102,7 +94,6 @@ Google Fonts
 
 ## Testing
 
-
 I believe the overall site has achieved the intended purposes designed for the user stories. Users are able to easily navigate through the site to the additional pages. There are clear call to actions that encourages users to direct straight to the Get in Touch section. The images and content provide clear information of the bands style and formation as well as a likeability factor. 
 
 1. Navigation Tool: 
@@ -148,7 +139,6 @@ I believe the overall site has achieved the intended purposes designed for the u
     7. Message box - able to increase height of box and min and max height rule is implemented
     8. Form is able to submit successfully with and without text within the message box
     9. If the message exceeds the height, users are able to scroll to the top and bottom of their message
-
 
 Issues Found: 
 1. When site is opened on Safari, gallery width is larger than what is supposed to be - one of the images are out of line and skewed to the right
@@ -212,34 +202,11 @@ Central Avenue Function Band's website [here](https://www.centralavenuefunctionb
 Misc Images Found on Google Images:
 - [Texture](https://image.freepik.com/free-photo/cement-wall-texture-background_76539-221.jpg)
 
-
 ### Acknowledgements
 
-I used Free Code Camp for guidance on the grid layout for the gallery page. 
-https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/
-
-I regularly used Stack Overflow on any queries I had. Especially when it came to the use of background images, which was heavily used throughout this project. 
-
-I had issues with understanding Git and pushing repositries to Github, so I used these sites as guidance as well as referancing the lesson on the command line module on Code Institue.
-
-I deployed a static website and used this guideline from Treehouse on how to do this via Heroku:
-https://blog.teamtreehouse.com/deploy-static-site-heroku
-- I received inspiration for this project from X
+The inspiration for this project has been from the official The Function Band's website. I recieved a majority of the color palette, content as well as videos and images from this website.
+https://www.thefunction.band/
 
 As this is my first site that I have developed from start to finish, I found that generating the commit messages to Github were difficult for me to compose correctly. This guide from Joel Parker Henderson on Github cleared my understanding of how to write clear and consise commit messages. 
 https://github.com/joelparkerhenderson/git_commit_message
 
-
-The inspiration for this project has been from the official The Function Bands website. I recieved a majority of the color palette, content as well as videos and images from this website.
-
-
-Used Css Tricks for many of the more difficult css features
-Such as the tinted color overlaying the background image on the footer section
-https://css-tricks.com/tinted-images-multiple-backgrounds/
-
-
-Grabbed some text from here :
-https://www.alivenetwork.com/bandpage.asp?bandname=The%20Function#biography
-
-Inspiration on the members profile:
-https://www.thelondonfunctionband.com/singers
