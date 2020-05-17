@@ -1,4 +1,10 @@
 # The Function Band
+<a name="intro"></a>
+
+### Table of Contents
+1. [Introduction](#intro)
+2. [User Stories](#userstory)
+3. [Features](#features)
 
 Milestone Project #1 - User Centeric Frontend Development 
 
@@ -9,7 +15,7 @@ The sites purpose if to allow more traffic into the site. With links to social m
 ## UX 
 
 ### User Stories
-
+<a name="userstory"></a>
 As a user, I want to be able to easily navigate the site, so that I can get to the page I need. 
 
 <img src="userstoryimg/navbar.png" alt="Image of the navigation tool bar" style="align: center;">
@@ -61,6 +67,7 @@ As a user, I want to know if my form has been submitted successfully, for peace 
 <img src="userstoryimg/confirmation.png" alt="Image of form submitted confirmation" style="align:cetner;">
 
 ## Features 
+<a name="features"></a>
 
 ### Existing Features
 
