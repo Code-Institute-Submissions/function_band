@@ -223,6 +223,7 @@ Central Avenue Function Band's website [here](https://www.centralavenuefunctionb
 
 Misc Images Found on Google Images:
 - [Texture](https://image.freepik.com/free-photo/cement-wall-texture-background_76539-221.jpg)
+- [Wedding Performance](https://i.pinimg.com/originals/28/63/32/286332f3e04b855d7336c2c6d77512b9.jpg)
 
 ### Acknowledgements
 
