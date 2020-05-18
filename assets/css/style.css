@@ -515,6 +515,10 @@ textarea {
         font-size: 1.5em;
     }
 
+    .contact-complete {
+        margin-top: 25%;
+    }
+
 }
 
 
@@ -565,6 +569,14 @@ textarea {
 
     #gallery-background {
         height: 100px;
+    }
+
+    .contact-complete {
+        margin-top: 30%;
+    }
+    
+    .contact-complete p {
+        font-size: 1.5em;
     }
 
 }
@@ -624,6 +636,16 @@ textarea {
     }
 
     .contact-us-form h2 {
+        font-size: 1em;
+    }
+
+    .contact-complete {
+        margin-top: 45%;
+        width: 75%;
+        margin-left: 15%;
+    }
+    
+    .contact-complete p {
         font-size: 1em;
     }
 
