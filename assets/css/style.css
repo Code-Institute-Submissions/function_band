@@ -1,3 +1,4 @@
+/*----Google Fonts----*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400;500;600;700;800&display=swap');
 
@@ -65,6 +66,7 @@ header {
 }
 
 .hero-image {
+    /*--Image sourced from The Function Band--*/
     background: url(../img/partyperformance.jpg);
     background-size: cover;
     background-position: center center;
@@ -138,6 +140,7 @@ hr {
 }
 
 .main-image {
+    /*--Image sourced from The Mini Big Band--*/
     background-image: url("../img/stage_performance.jpg");
     background-size: cover;
     background-position: center;
@@ -173,6 +176,7 @@ hr {
   }
 
 .about-img {
+    /*--Image sourced from Central Avenue Function Band--*/
     background: linear-gradient(rgba(150, 33, 228, 0.568),  rgba(255, 0, 0, 0.45)), url("../img/full_band.jpg");
     background-size: cover;
     background-position: center center;
@@ -257,6 +261,7 @@ hr {
 }
 
 .background-texture {
+    /*--Image sourced from Google Search on background textures--*/
     background-image: url("../img/tecture.jpg");
     background-size: cover;
     background-position: center;
@@ -290,6 +295,7 @@ hr {
 .form {
     height: 800px;
     margin: 0 auto;
+    /*--Image sourced from Google Search on wedding bands*/
     background: url(../img/wedding_band.jpg);
     background-size: cover;
     background-position: center center;
@@ -360,6 +366,7 @@ textarea {
 
 .site-footer {
     height: 220px;
+    /*--Image sourced from The Mini Big Band--*/
     background:  linear-gradient(rgba(150, 33, 228, 0.5),  rgba(255, 0, 0, 0.5)), url(../img/wedding_venue.jpg);
     background-repeat: no-repeat;
     background-position: center;
