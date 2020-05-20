@@ -23,55 +23,19 @@ The sites purpose if to allow more traffic into the site. With links to social m
 
 ### User Stories
 
-As a user, I want to be able to easily navigate the site, so that I can get to the page I need. 
-
-<img src="userstoryimg/navbar.png" alt="Image of the navigation tool bar" style="align: center;">
-
-As a user, I want to read an introduction of the band before further entering the site, so that I get an impression of the band first. 
-
-<img src="userstoryimg/header_information.png" alt="Image of the hero image and text" style="align:center;">
-
-As a user, I want to view reviews from previous customers, so that I can determine if the band is worth hiring. 
-
-<img src="userstoryimg/user_reviews.png" alt="Image of the review section" style="align:center;">
-
-As a user, I want to access social media accounts, so that I can review their social media. 
-
-<img src="userstoryimg/social_media.png" alt="Image of footer section" style="align:center;">
-
-As a user, I need to read about the bands formation, so that I have more knowledge of the band
-As a user, I want to read about the bands different styles, so I know if the band is suitable for my event
-
-<img src="userstoryimg/about_us.png" alt="Image of band about us section" style="align:center;">
-
-As a user, I want to know the bands pricing, so I know if the band is affordable for my event
-
-<img src="userstoryimg/example_line_up.png" alt="Image of example line ups" style="align:center;">
-<img src="userstoryimg/get_in_touch.png" alt="Image of get in touch statement" style="align:center">
-
-As a user, I want to listen/watch a video of the band performing, so that I like the sound of the band
-
-<img src="userstoryimg/video.png" alt="Image of the video feature" style="align:center;">
-
-As a user, I want to view photos, so that I can determine if I like the look of the band
-
-<img src="userstoryimg/gallery_img.png" alt="Image of the gallery section" style="align:center;">
-
-As a user, I want to supply my contact information so that the band can get back in touch with me 
-
-<img src="userstoryimg/contact_info.png" alt="Image of form details" style="align:center;">
-
-As a user, I want to write a description of the event, so that I can provide in detail of what I am expecting for the band
-
-<img src="userstoryimg/message.png" alt="Image of message section on form" style="align:center;">
-
-As a user, I want to submit the form once completed, so that the band can get back in touch
-
-<img src="userstoryimg/submit.png" alt="Image of the submit button" style="align:center">
-
-As a user, I want to know if my form has been submitted successfully, for peace of mind 
-
-<img src="userstoryimg/confirmation.png" alt="Image of form submitted confirmation" style="align:cetner;">
+* As a user, I want to be able to easily navigate the site, so that I can get to the page I need. 
+* As a user, I want to read an introduction of the band before further entering the site, so that I get an impression of the band first. 
+* As a user, I want to view reviews from previous customers, so that I can determine if the band is worth hiring. 
+* As a user, I want to access social media accounts, so that I can review their social media. 
+* As a user, I need to read about the bands formation, so that I have more knowledge of the band
+* As a user, I want to read about the bands different styles, so I know if the band is suitable for my event
+* As a user, I want to know the bands pricing, so I know if the band is affordable for my event
+* As a user, I want to listen/watch a video of the band performing, so that I like the sound of the band
+* As a user, I want to view photos, so that I can determine if I like the look of the band
+* As a user, I want to supply my contact information so that the band can get back in touch with me 
+* As a user, I want to write a description of the event, so that I can provide in detail of what I am expecting for the band
+* As a user, I want to submit the form once completed, so that the band can get back in touch
+* As a user, I want to know if my form has been submitted successfully, for peace of mind 
 
 <a name="features"></a>
 
