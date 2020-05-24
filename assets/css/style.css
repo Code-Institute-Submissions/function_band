@@ -171,7 +171,7 @@ hr {
     overflow: hidden;
     position: relative;
     z-index: -2;
-  }
+}
 
 .about-img {
     /*--Image sourced from Central Avenue Function Band--*/
@@ -226,6 +226,8 @@ hr {
 
 .about-video {
     margin-left: 5%;
+    width: 90%;
+    height: 500px;
 }
 
 /*------Line Up Exmaples-----*/
@@ -348,45 +350,52 @@ textarea {
     background-position: center;
     background-size: cover;
     overflow: hidden;
-    font-size: 2em;
     color: white;
-    padding-bottom: 5%;
 }
 
 .footer-container {
-    margin-top: 2%;
-    color: white;
+    padding: 3%;
 }
 
 .footer-social {
-    margin-bottom: 2%;
+    text-align: center;
+    font-size: 1em;
 }
 
-.footer-social p {
-    font-size: .50em;
+.footer-social ul {
     margin: 0;
-    border-left: solid white .50px;
-    display: inline-block;
-    padding: 0 1%;
+    padding: 0;
 }
 
 .footer-social li {
-    list-style-type: none;
     display: inline-block;
+    list-style-type: none;
+    padding: 0 1%;
 }
 
 .footer-social a {
-    color: white;
     letter-spacing: 6px;
+    color: white;
 }
 
-.footer-social i {
-    font-size: .50em;
-}
-.footer-social ul {
-    margin: 0;
+.footer-nav {
+    font-size: 1em;
     text-align: center;
-    padding: 0 2%;
+}
+
+.footer-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 3%;
+}
+
+.footer-nav a {
+    color: white;
 }
 
 .footer-hr {
@@ -395,35 +404,7 @@ textarea {
     margin: 0 auto;
 }
 
-/*----Footer navigation---*/
 
-.footer-nav {
-    margin-top: 2%;
-}
-
-.footer-nav li {
-    list-style-type: none;
-    display: inline;
-}
-
-.footer-nav ul {
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.footer-nav a {
-    color: white;
-    font-size: .50em;
-    padding-left: 5%;
-}
-
-.copyright {
-    font-size: .45em;
-    margin: 0;
-    float: right;
-    padding-right: 5%;
-}
 
 /*---Media Query----*/
 
@@ -498,7 +479,6 @@ textarea {
 
 }
 
-
 @media only screen and (max-width: 500px) {
     
     .hero-caption {
@@ -529,13 +509,6 @@ textarea {
         font-size: 1em;
     }
 
-    .site-footer {
-        font-size: 1.50em;
-        margin: 0 auto;
-        padding-right: 5%;
-        height: 200px;
-    }
-
     #about-text-box {
         width: 80%;
     }
@@ -561,6 +534,18 @@ textarea {
         font-size: 1.75em;
     }
 
+    .footer-container {
+        padding-top: 15%;
+    }
+
+    .footer-social {
+        font-size: .75em;
+    }
+
+    .footer-nav {
+        font-size: .50em;
+    }
+
 }
 
 @media only screen and (max-width: 300px) {
@@ -580,17 +565,6 @@ textarea {
 
     #main-text h4 {
         font-size: .75em;
-    }
-
-    .site-footer {
-        font-size: 1em;
-        margin: 0 auto;
-        height: 150px;
-    }
-
-    .footer-hr {
-        margin: 0 auto;
-        padding: 0;
     }
 
     #about-text-box {
