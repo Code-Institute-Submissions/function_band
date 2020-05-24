@@ -2,22 +2,11 @@
 
 # The Function Band
 
-### Table of Contents
-1. [Introduction](#intro)
-2. [User Stories](#userstory)
-3. [Features](#features)
-4. [Technology](#tech)
-5. [Testing](#testing)
-6. [Deployment](#deployment)
-7. [Credits & Acknowledgements](#credits)
-
 Milestone Project #1 - User Centeric Frontend Development 
 
-The Function band is the most respected and hired band in the Greenwich and Lewisham area. This site provides deep insight into the bands style for new and past users to experience the band from the comfort of their mobile or computer. This site is to introduce the band to prospective event creators who require a band with a variety in style and performance. This site will provide information on the bands formation, background and history of the members, gallery of photos and a video of a past performance. Users will be able to read tesitimonials of the bands previous customers as well as further enquire on the bands availability and pricing information. 
+The Function band is the most respected and hired band in the Greenwich and Lewisham area. This site provides deep insight into the bands style for new and past users to experience the band from the comfort of their mobile or computer. This site is to introduce the band to prospective event creators who require a band with a variety in style and performance.
 
-The sites purpose if to allow more traffic into the site. With links to social media accounts and review sites such as Trustpilot, new and past users will not be able to quickly and easily get in touch with the band at their convenience for their event queries. The band is currently local to the Greenwich and Lewisham area, but the band would like to expand further into London and potentially throughout the UK.
-
-<a name="userstory"></a>
+The sites purpose if to allow more traffic into the site. With links to social media accounts and review sites such as Trustpilot, new and past users will now be able to quickly and easily get in touch with the band at their convenience for their event queries. The band is currently local to the Greenwich and Lewisham area, but the band would like to expand further into London and potentially throughout the UK.
 
 ## UX 
 
@@ -36,8 +25,6 @@ The sites purpose if to allow more traffic into the site. With links to social m
 * As a user, I want to write a description of the event, so that I can provide in detail of what I am expecting for the band
 * As a user, I want to submit the form once completed, so that the band can get back in touch
 * As a user, I want to know if my form has been submitted successfully, for peace of mind 
-
-<a name="features"></a>
 
 ## Features 
 
@@ -60,19 +47,18 @@ I would have like to added more details in the About Page on individual band mem
 I would have liked to made the About Page more complex in style. 
 I would like to have made the site more interactive.
 
-<a name="tech"></a>
-
 ## Technologies Used
 
-1. HTML
-2. CSS
-3. Bootstrap
-
-Mentions:
-Font Awesome
-Google Fonts
-
-<a name="testing"></a>
+1. [HTML5](https://en.wikipedia.org/wiki/HTML5)
+    * The markup language used for structuring and presenting content of the site
+2. [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    * The Cascading Style Sheet used to to design the site
+3. [Bootstrap v4.4.1](https://getbootstrap.com/)
+    * CSS Framework used for building the grid layout and mobile-first responsive design
+4. [Font Awesome](https://fontawesome.com/)
+    * Used for inserting quick and easy icons and logos for the site
+5. [Google Fonts](https://fonts.google.com/)
+    * Sourced fonts required for site
 
 ## Testing
 
@@ -126,14 +112,10 @@ Issues Found:
 1. When site is opened on Safari, gallery width is larger than what is supposed to be - one of the images are out of line and skewed to the right
 2. When submitting form on the deployed site on a mobile device, users recieve a 405 Not Allowed error after submitting the form correctly
 
-<a name="deployment"></a>
-
 ## Deployment
 
 The site has been deployed using Github Pages, which is deployed directly from my Master branch. 
 The deployed site automically updates after every new commit to the master branch. 
-
-<a name="credits"></a>
 
 ## Credits
 
@@ -141,25 +123,19 @@ The deployed site automically updates after every new commit to the master branc
 
 A majority of the written content has not been written by me. The content has been sourced from other function band sites.
 
-- The introduction text on the Home Page has been copied from the band the Brand New Groove's contact page:
-https://www.brandnewgroove.co.uk/
+- The introduction text on the Home Page has been copied from the band the [Brand New Groove's](https://www.brandnewgroove.co.uk/) contact page:
 
-- The text in the box when entering the About Us page was sourced from The Blue Rinse about us section:
-https://www.thebluerinse.co.uk/
+- The text in the box when entering the About Us page was sourced from [The Blue Rinse](https://www.thebluerinse.co.uk/) about us section:
 
-- The main set of text on the About Us page was sourced from the Ambassadro Band's about us section:
-http://www.ambassadorband.co.uk/party-band-london/
+- The main set of text on the About Us page was sourced from [The Ambassador Band's](http://www.ambassadorband.co.uk/party-band-london/) about us section:
 
-- The example line up within the About Us page was sourced from The Function Band's site under the Showband page:
-https://www.thefunction.band/showband
+- The example line up within the About Us page was sourced from [The Function Band's](https://www.thefunction.band/showband) site under the Showband page:
 
-- The video within the About Us section was sourced from Youtube. The original performers are with The Function Band:
-https://youtu.be/nNy0-O26NIQ - "The Function Band Live at The Savoy"
+- The video within the About Us section was sourced from Youtube. The original performers are with The Function Band - [The Function Band Live at The Savoy](https://youtu.be/nNy0-O26NIQ)
 
 The code is original to me, however I have gained inspiration from previous mini projects that were compelted with Code Institute: 
 
-The Love Running Project - This was as a mini project with guided instructions from Code Institute:
-https://repl.it/@AprilHa/Love-Running
+[The Love Running Project](https://repl.it/@AprilHa/Love-Running) - This was as a mini project with guided instructions from [Code Institute](https://codeinstitute.net/):
 
 The Resume Project - This mini project with the use of Bootstrap 4 was a guided instructed series from Code Institute. I've outlined in my comments in which features I have gained inspiration in my code from. 
 
@@ -174,7 +150,8 @@ The Mini Big Band's website [here](http://www.theminibigband.co.uk/gallery/)
 - [Couple Dancing](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2018/07/cropped-Anniversaire-Jaeggi_web-311.jpg)
 - [Event Hall](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2017/09/Anna-and-James-958-1200x800.jpg)
 - [Singer](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2017/09/Anna-and-James-985-1200x800.jpg)
-- [Trumpet Players](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2014/07/minibig-p.jpg)
+- [Horn Section](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2014/07/minibig-p.jpg)
+- [Trumpet Player](http://www.theminibigband.co.uk/mbigb-news/wp-content/uploads/2014/07/The-Mini-Big-Band-071-1200x800.jpg)
 
 The London Function Band's website [here](https://thelondonfunctionband.com/)
 - [Gutarist](https://thelondonfunctionband.com/sites/default/files/styles/photo_page_mobile_2x/public/2019/kimpton-fitzroy/The_London_Function_Band_Kimpton_Fitzroy_7.jpg?itok=Kl5V7Kah&timestamp=1562852073)
@@ -189,11 +166,13 @@ Misc Images Found on Google Images:
 - [Texture](https://image.freepik.com/free-photo/cement-wall-texture-background_76539-221.jpg)
 - [Wedding Performance](https://i.pinimg.com/originals/28/63/32/286332f3e04b855d7336c2c6d77512b9.jpg)
 
+- [Wedding Venue Dance Floor](https://www.weddingbandmusic.co.uk/2015/07/26/wedding-entertainment-shropshire-wedding-band-or-function-band/)
+
 ### Acknowledgements
 
-The inspiration for this project has been from the official The Function Band's website. I recieved a majority of the color palette, content as well as videos and images from this website.
-https://www.thefunction.band/
+The inspiration for this project has been from the official [The Function Band's](https://www.thefunction.band/) website. I recieved a majority of the color palette, content as well as videos and images.
 
-As this is my first site that I have developed from start to finish, I found that generating the commit messages to Github were difficult for me to compose correctly. This guide from Joel Parker Henderson on Github cleared my understanding of how to write clear and consise commit messages. 
-https://github.com/joelparkerhenderson/git_commit_message
+As this is my first site that I have developed from start to finish, I found that generating the commit messages to Github were difficult for me to compose correctly. This guide from Joel Parker Henderson on [Github](https://github.com/joelparkerhenderson/git_commit_message) cleared my understanding of how to write clear and consise commit messages. 
+
+I also wanted to thank my Code Institute mentor, Precious, who has been a great support and guide in the core development of this project.  
 
