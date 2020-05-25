@@ -18,8 +18,8 @@ These two color palette diagrams were inspiration for the color tone that I want
 
 I have taken the palette examples from this [site](https://visme.co/blog/website-color-schemes/) 
 
-#### Wireframes 
-I used [Adobe XD](https://www.adobe.com/uk/products/xd.html) to create my wireframes and mock-ups. I generated rough ideas of the layout and structure of the site using this application. As I get closer to completing the overall desktop structure and design of the site for desktop view, I then further my development into generating more detailed mock-ups for mobile use.
+#### Wireframes and Mockups
+I used [Adobe XD](https://www.adobe.com/uk/products/xd.html) to create my wireframes and mockups. I generated rough ideas of the layout and structure of the site using this application. As I got closer to completing the overall desktop structure and design of the site using the wireframes, it allowed me to creativly develop my designs when creating the mockups for the desktop and mobile devices.
 
 #### Wireframes
 * [Index](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/wireframe_index.png)
@@ -33,7 +33,7 @@ I used [Adobe XD](https://www.adobe.com/uk/products/xd.html) to create my wirefr
 * [Gallery](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/mock-up_gallery_web.png)
 * [Contact](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/mock-up_contact_web.png)
 
-#### Mobile Designs
+#### Mobile Mockups
 * [Index](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/mobile/mock-up_index_mobile.png)
 * [About Us](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/mobile/mock-up_about_mobile.png)
 * [Gallery](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/mobile/mock-up_gallery_mobile.png)
@@ -45,15 +45,10 @@ I used [Adobe XD](https://www.adobe.com/uk/products/xd.html) to create my wirefr
 * As a user, I want to view reviews from previous customers, so that I can determine if the band is worth hiring. 
 * As a user, I want to access social media accounts, so that I can review their social media. 
 * As a user, I want to read an introduction of the band before further entering the site, so that I get an impression of the band first. 
-* As a user, I need to read about the bands formation, so that I have more knowledge of the band
-* As a user, I want to read about the bands different styles, so I know if the band is suitable for my event
-* As a user, I want to know the bands pricing, so I know if the band is affordable for my event
-* As a user, I want to listen/watch a video of the band performing, so that I like the sound of the band
-* As a user, I want to view photos, so that I can determine if I like the look of the band
-* As a user, I want to supply my contact information so that the band can get back in touch with me 
-* As a user, I want to write a description of the event, so that I can provide in detail of what I am expecting for the band
-* As a user, I want to submit the form once completed, so that the band can get back in touch
-* As a user, I want to know if my form has been submitted successfully, for peace of mind 
+* As a user, I need to read about the bands formation, so that I have more knowledge of the band.
+* As a user, I want to listen/watch a video of the band performing, so that I like the sound of the band.
+* As a user, I want to view photos, so that I can determine if I like the look of the band.
+* As a user, I want to supply my contact information and info on the event so that the band can get back in touch with me with more details.
 
 ## Features 
 
@@ -90,53 +85,20 @@ I used [Adobe XD](https://www.adobe.com/uk/products/xd.html) to create my wirefr
 
 ## Testing
 
-Testing Matrix
-The overall site has achieved the intended pruposes and design. The attached testing matrix on responsivness and browser compatibility outlines the various test implemented. 
+### Testing Matrix
+The overall site has achieved the intended pruposes and design. The attached [testing matrix](https://github.com/aprilha3097/function_band/blob/master/testing/user_testing.pdf) on responsivness and browser compatibility outlines the various tests implemented. 
 
-1. Navigation Tool: 
-    1. 'The Function Band' logo directs back to the Home Page
-    2. Each of the links work appropriatly and directs to the correct pages
-    3. The box over the active pages hovers over the correct and active pages
-
-2. Home page - call to action
-    1. Clicking the Enquire Now! button re-directs to the Get in Touch page
-    2. The page does not open in a new tab - re-directs instead
-
-3. Responsiveness:
-    1. Each of the pages are responsive - using the Google Inspect tool 
-        1. I selected each of the pages and amended the width on the Responsive mobile tool
-    2. Deployed site is accessible on Google Chrome
-    3. Deployed site is accessible on Samsung Galaxy 9 plus, Google Pixel 2 and Iphone X. 
-
-4. Video Feature: 
-    1. Clicking the play button on video plays video
-    2. Video ends and does not replay
-    3. Video is able to be played on mobile devices
-
-5. Social Links:
-    1. Selects Facebook icon and Facebook opens in a new tab
-    2. Selects Instagram icon and Instagram opens in a new tab
-    3. Selects Twitter icon and Twitter opens in a new tab
-    4. Selects Youtube icon and Youtube opens in a new tab
-
-6. Footer Navigation:
-    1. Selects About Us and opens page in a new tab
-    2. Selects Gallery and opens in a new tab
-    3. Selects Get in Touch and opens in a new tab
-    4. Selects Trustpilot and opens into the Trustpilot site
-    5. These steps are repeated on each of the sites footers
-
-7. Form: 
+Steps on the more extensive test implmented on the form section:
+* Form: 
     1. Submit form with no information - unable to do so without first and last name and email
-    2. Enter only First name and submit form - unable to do so without Last name and email details
-    3. Enter only Last name and submit form - unable to do so without First name and email details
+    2. Enter only first name and submit form - unable to do so without last name and email details
+    3. Enter only last name and submit form - unable to do so without first name and email details
     4. Enter only email and submit form - unable to do so without first and last name details
-    5. Enter First and Last name and partial email detail (no @) and then submit form - unable to do so without the @ icon to complete email address
-    6. Enter Name and email correctly and submit form - details have been submitted correctly and page is re-directed to form submission confirmation
+    5. Enter first and last name and partial email detail (no @) and then submit form - unable to do so without the @ icon to complete email address
+    6. Enter name and email correctly and submit form - form submits - no re-direction as page is static
     7. Message box - able to increase height of box and min and max height rule is implemented
     8. Form is able to submit successfully with and without text within the message box
     9. If the message exceeds the height, users are able to scroll to the top and bottom of their message
-
 
 ### Compatibility
 The site was tested on these sites with a variety of success: 
@@ -190,12 +152,11 @@ A majority of the written content has not been written by me. The content has be
 
 - The video within the About Us section was sourced from Youtube. The original performers are with The Function Band - [The Function Band Live at The Savoy](https://youtu.be/nNy0-O26NIQ)
 
-The code is original to me, however I have gained inspiration from previous mini projects that were compelted with Code Institute: 
+The code is original to me, however I have gained inspiration from previous mini projects that were completed with Code Institute: 
 
-[The Love Running Project](https://repl.it/@AprilHa/Love-Running) - This was as a mini project with guided instructions from [Code Institute](https://codeinstitute.net/):
+[The Love Running Project](https://repl.it/@AprilHa/Love-Running) - This was as a mini project with guided instructions from [Code Institute](https://codeinstitute.net/)
 
-The Resume Project - This mini project with the use of Bootstrap 4 was a guided instructed series from Code Institute. I've outlined in my comments in which features I have gained inspiration in my code from. 
-
+The Resume Project - This mini project with the use of Bootstrap 4 was a guided instructed series from Code Institute. 
 
 ### Media
 The photos within the project are not of my own, but were sourced from other band sites:
@@ -222,14 +183,13 @@ Central Avenue Function Band's website [here](https://www.centralavenuefunctionb
 Misc Images Found on Google Images:
 - [Texture](https://image.freepik.com/free-photo/cement-wall-texture-background_76539-221.jpg)
 - [Wedding Performance](https://i.pinimg.com/originals/28/63/32/286332f3e04b855d7336c2c6d77512b9.jpg)
-
 - [Wedding Venue Dance Floor](https://www.weddingbandmusic.co.uk/2015/07/26/wedding-entertainment-shropshire-wedding-band-or-function-band/)
 
 ### Acknowledgements
 
-The inspiration for this project has been from the official [The Function Band's](https://www.thefunction.band/) website. I recieved a majority of the color palette, content as well as videos and images.
+The inspiration for this project has been from the official [The Function Band's](https://www.thefunction.band/) website. I recieved a majority of the color palette, content as well as videos and images from their site.
 
-As this is my first site that I have developed from start to finish, I found that generating the commit messages to Github were difficult for me to compose correctly. This guide from Joel Parker Henderson on [Github](https://github.com/joelparkerhenderson/git_commit_message) cleared my understanding of how to write clear and consise commit messages. 
+As this is my first site that I have developed from start to finish, I found that generating the commit messages to Github were difficult for me to compose correctly. This guide from Joel Parker Henderson on [Github](https://github.com/joelparkerhenderson/git_commit_message) clarified my understanding of how to write clear and consise commit messages. 
 
-I also wanted to thank my Code Institute mentor, Precious, who has been a great support and guide in the core development of this project.  
+I also wanted to thank my Code Institute mentor, Precious Ijege, who has been a great support and guide in the core development of this project. 
 
