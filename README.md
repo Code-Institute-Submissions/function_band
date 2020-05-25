@@ -25,19 +25,19 @@ I used [Adobe XD](https://www.adobe.com/uk/products/xd.html) to create my wirefr
 * [Index](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/wireframe_index.png)
 * [About Us](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/wireframe_about.png)
 * [Gallery](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/wireframe_gallery.png)
-* [Contact] (https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/wireframe_contact.png)
+* [Contact](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/wireframe_contact.png)
 
 #### Desktop Mockups
 * [Index](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/mock-up_index_web.png)
 * [About Us](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/mock-up_about_web.png)
 * [Gallery](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/mock-up_gallery_web.png)
-* [Contact] (https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/mock-up_contact_web.png)
+* [Contact](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/mock-up_contact_web.png)
 
 #### Mobile Designs
 * [Index](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/mobile/mock-up_index_mobile.png)
 * [About Us](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/mobile/mock-up_about_mobile.png)
 * [Gallery](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/mobile/mock-up_gallery_mobile.png)
-* [Contact] (https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/mobile/mock-up_contact_mobile.png)
+* [Contact](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/mobile/mock-up_contact_mobile.png)
 
 ### User Stories
 
