@@ -132,7 +132,7 @@ https://aprilha3097.github.io/function_band/
 
 1. On the [repository page](https://github.com/aprilha3097/function_band), click on the Clone or Download button
 2. To clone the site with HTTPS, copy the following URL
-![Clone or Download button](/Users/aprilha/Documents/function_band/example_images/clone_or_download.png)
+![Clone or Download button] (example_images/clone_or_download.png)
 3. Open Terminal and change the directory to where you want the cloned directory
 4. Type git clone and then paste the previous URL from earlier
 5. Press Enter to download all of the material from the respository locally to your machine 
