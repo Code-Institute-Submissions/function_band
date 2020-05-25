@@ -6,11 +6,38 @@ Milestone Project #1 - User Centric Front-End Development
  
 The Function band is the most respected and hired band in the Greenwich and Lewisham area. This site provides deep insight into the bands style for new and past users to experience the band from the comfort of their mobile or computer. This site is to introduce the band to prospective event creators who require a band with a variety in style and performance.
  
-The site's purpose is to allow more traffic into the site. With links to social media accounts and review sites such as Trustpilot, new and past users will now be able to quickly and easily get in touch with the band at their convenience for their event queries. The band is currently local to the Greenwich and Lewisham area, but the band would like to expand further into London and potentially throughout the UK.
+The site's purpose is to allow more traffic. With links to social media accounts and review sites such as Trustpilot, new and past users will now be able to quickly and easily get in touch with the band at their convenience for their event queries. The band is currently local to the Greenwich and Lewisham area, but the band would like to expand further into London and potentially throughout the UK.
 
 ## UX
 
+#### Color Scheme 
+These two color palette diagrams were inspiration for the color tone that I wanted to achieve for this site. Sleek, vibrant and consistent was my aim. 
 
+[Palette #1](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/color/color_example_1.jpg)
+[Palette #2](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/color/color_example_2.jpg)
+
+I have taken the palette examples from this [site](https://visme.co/blog/website-color-schemes/) 
+
+#### Wireframes 
+I used [Adobe XD](https://www.adobe.com/uk/products/xd.html) to create my wireframes and mock-ups. I generated rough ideas of the layout and structure of the site using this application. As I get closer to completing the overall desktop structure and design of the site for desktop view, I then further my development into generating more detailed mock-ups for mobile use.
+
+#### Wireframes
+* [Index](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/wireframe_index.png)
+* [About Us](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/wireframe_about.png)
+* [Gallery](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/wireframe_gallery.png)
+* [Contact] (https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/wireframe_contact.png)
+
+#### Desktop Mockups
+* [Index](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/mock-up_index_web.png)
+* [About Us](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/mock-up_about_web.png)
+* [Gallery](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/mock-up_gallery_web.png)
+* [Contact] (https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/desktop/mock-up_contact_web.png)
+
+#### Mobile Designs
+* [Index](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/mobile/mock-up_index_mobile.png)
+* [About Us](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/mobile/mock-up_about_mobile.png)
+* [Gallery](https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/mobile/mock-up_gallery_mobile.png)
+* [Contact] (https://github.com/aprilha3097/function_band/blob/master/wireframes-mockups/mobile/mock-up_contact_mobile.png)
 
 ### User Stories
 
@@ -145,6 +172,7 @@ https://aprilha3097.github.io/function_band/
 
 5. Press Enter to download all of the material from the respository locally to your machine 
 
+For more information on cloning repositories, go [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 
 ## Credits
 
