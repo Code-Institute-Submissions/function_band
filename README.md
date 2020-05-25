@@ -1,21 +1,23 @@
 <a name="intro"></a>
 
 # The Function Band
-
-Milestone Project #1 - User Centeric Frontend Development 
-
+ 
+Milestone Project #1 - User Centric Front-End Development
+ 
 The Function band is the most respected and hired band in the Greenwich and Lewisham area. This site provides deep insight into the bands style for new and past users to experience the band from the comfort of their mobile or computer. This site is to introduce the band to prospective event creators who require a band with a variety in style and performance.
+ 
+The site's purpose is to allow more traffic into the site. With links to social media accounts and review sites such as Trustpilot, new and past users will now be able to quickly and easily get in touch with the band at their convenience for their event queries. The band is currently local to the Greenwich and Lewisham area, but the band would like to expand further into London and potentially throughout the UK.
 
-The sites purpose if to allow more traffic into the site. With links to social media accounts and review sites such as Trustpilot, new and past users will now be able to quickly and easily get in touch with the band at their convenience for their event queries. The band is currently local to the Greenwich and Lewisham area, but the band would like to expand further into London and potentially throughout the UK.
+## UX
 
-## UX 
+
 
 ### User Stories
 
 * As a user, I want to be able to easily navigate the site, so that I can get to the page I need. 
-* As a user, I want to read an introduction of the band before further entering the site, so that I get an impression of the band first. 
 * As a user, I want to view reviews from previous customers, so that I can determine if the band is worth hiring. 
 * As a user, I want to access social media accounts, so that I can review their social media. 
+* As a user, I want to read an introduction of the band before further entering the site, so that I get an impression of the band first. 
 * As a user, I need to read about the bands formation, so that I have more knowledge of the band
 * As a user, I want to read about the bands different styles, so I know if the band is suitable for my event
 * As a user, I want to know the bands pricing, so I know if the band is affordable for my event
@@ -30,22 +32,21 @@ The sites purpose if to allow more traffic into the site. With links to social m
 
 ### Existing Features
 
-1. Users are able to navigate the site to the additional pages
-2. A call to action button that links directly to the Get in Touch page
-3. A link to the trustpilot review site, which allows users to read and write reviews of the band
-4. Links to the bands social media accounts - users are able to follow and keep up to date with latest news and music from the band
-5. A video of the bands past performance
-6. A call to action link to enourage users to get in touch for pricing information 
-7. A series of images of the band and past events
-8. Contact form for users to submit details of themselves and event
-9. A button allowing users to submit form once completed
+* Users are able to navigate the site to the additional pages
+* A call to action button that links directly to the Get in Touch page
+* A link to the trustpilot review site, which allows users to read and write reviews of the band
+* Links to the bands social media accounts - users are able to follow and keep up to date with latest news and music from the band
+* A video of the bands past performance
+* A call to action link to encourage users to get in touch for pricing information
+* A series of images of the band and past events
+* Contact form for users to submit details of themselves and event
+* A button allowing users to submit form once completed
 
 ### Features Left to Implement
 
-In the future, I would like to implement the following:
-I would have like to added more details in the About Page on individual band members and photos of each of the members. 
-I would have liked to made the About Page more complex in style. 
-I would like to have made the site more interactive.
+* Add an about me and photo for each of the band members in a carousel style slideshow of images
+* Implement a fully functional "Send" button once form has been submitted - re-directing to a confirmation page
+* Modify the gallery page so images will load faster with limited lag 
 
 ## Technologies Used
 
@@ -62,7 +63,8 @@ I would like to have made the site more interactive.
 
 ## Testing
 
-I believe the overall site has achieved the intended purposes designed for the user stories. Users are able to easily navigate through the site to the additional pages. There are clear call to actions that encourages users to direct straight to the Get in Touch section. The images and content provide clear information of the bands style and formation as well as a likeability factor. 
+Testing Matrix
+The overall site has achieved the intended pruposes and design. The attached testing matrix on responsivness and browser compatibility outlines the various test implemented. 
 
 1. Navigation Tool: 
     1. 'The Function Band' logo directs back to the Home Page
@@ -108,14 +110,34 @@ I believe the overall site has achieved the intended purposes designed for the u
     8. Form is able to submit successfully with and without text within the message box
     9. If the message exceeds the height, users are able to scroll to the top and bottom of their message
 
-Issues Found: 
-1. When site is opened on Safari, gallery width is larger than what is supposed to be - one of the images are out of line and skewed to the right
-2. When submitting form on the deployed site on a mobile device, users recieve a 405 Not Allowed error after submitting the form correctly
+
+### Compatibility
+The site was tested on these sites with a variety of success: 
+* Google Chrome
+* Safari 
+* Edge
+* Internet Explorer
+* Firefox
+
+### Noted Issues
+* CSS Grid is not supported on Safari. The gallery page was not fixed to the 2 coloumn style rule that was implemented
+* The height of images were stretched when veiewing the site on Edge 
 
 ## Deployment
 
-The site has been deployed using Github Pages, which is deployed directly from my Master branch. 
-The deployed site automically updates after every new commit to the master branch. 
+The site has been deployed using Github Pages, which is sourced directly from my Master branch:
+https://aprilha3097.github.io/function_band/
+
+### Run site locally
+
+1. On the [repository page](https://github.com/aprilha3097/function_band), click on the Clone or Download button
+2. To clone the site with HTTPS, copy the following URL
+<img src="/Users/aprilha/Documents/function_band/local_deployment/clone_or_download.png" alt="Grab of Clone or Download button">
+3. Open Terminal and change the directory to where you want the cloned directory
+4. Type git clone and then paste the previous URL from earlier
+<img src="/Users/aprilha/Documents/function_band/local_deployment/git_clone.png"c alt="Grab of Git Clone command in terminal">
+5. Press Enter to download all of the material from the respository locally to your machine 
+
 
 ## Credits
 
