@@ -20,35 +20,40 @@ body {
 header {
     font-family: "Baloo Bhaina 2", sans-serif;
     width: 100%;
-    height: 100px;
     position: fixed;
     z-index: 1;
-}
-
-#logo {
-    float: left;
-    padding-left: 5%;
-    font-size: 2em;
-    margin-top: 3vw;
-    color: white;
+    text-align: center;
+    -webkit-text-stroke: .5px black;
 }
 
 #nav {
-    float: right;
-    margin-top: 3vw;
-    padding-right: 5%; 
+    margin: 0 auto;
+    padding: 0;
+    font-size: 1em;
 }
 
 #nav li {
     list-style-type: none;
-    display: inline-block;
-    padding-right: 1vw;
+    display: inline;
+    padding: 0 .5%;
+}
+
+#logo {
+    color: white;
+    text-decoration: none;
+    display: inline;
+    font-size: 1.5em;
 }
 
 #nav a {
-    font-size: 1.5em;
-    padding: .5vw;
-    color: white;   
+    color: white;
+    padding: .10% .25%;
+}
+
+.nav_bg {
+    background-color: rgba(0, 0, 119, .5);
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .active {
@@ -251,9 +256,6 @@ hr {
 
 /*-------Gallery----*/
 
-.gallery_nav {
-    position: absolute;  
-}
 
 #gallery-background {
     height: 100px;
@@ -409,19 +411,6 @@ textarea {
 /*---Media Query----*/
 
 @media only screen and (max-width: 900px) {
-
-    #logo {
-        float: none;
-        text-align: center;
-        padding: 0;
-    }
-
-    #nav {
-        float: none; 
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }
     
     #gallery-background {
         height: 145px;
@@ -491,14 +480,6 @@ textarea {
 
     .hero-caption p {
         font-size: .65em;
-    }
-
-    #logo {
-        font-size: 1.25em;
-    }
-
-    #nav a {
-        font-size: 1em;
     }
 
     #main-text p {
