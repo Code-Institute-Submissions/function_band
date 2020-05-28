@@ -20,40 +20,36 @@ body {
 header {
     font-family: "Baloo Bhaina 2", sans-serif;
     width: 100%;
+    height: 100px;
     position: fixed;
     z-index: 1;
-    text-align: center;
-    -webkit-text-stroke: .5px black;
+    background-color: rgba(46, 49, 49, .5);
+}
+
+#logo {
+    float: left;
+    padding-left: 5%;
+    font-size: 2em;
+    margin-top: 3vw;
+    color: white;
 }
 
 #nav {
-    margin: 0 auto;
-    padding: 0;
-    font-size: 1em;
+    float: right;
+    margin-top: 3vw;
+    padding-right: 5%; 
 }
 
 #nav li {
     list-style-type: none;
-    display: inline;
-    padding: 0 .5%;
+    display: inline-block;
+    padding-right: 1vw;
 }
 
 #nav a {
-    color: white;
-    padding: .10% .25%;
-}
-
-#logo {
-    color: white;
-    text-decoration: none;
-    display: inline;
     font-size: 1.5em;
-}
-
-.nav_bg {
-    background-color: rgba(46, 49, 49, .5);
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: .5vw;
+    color: white;   
 }
 
 .active {
@@ -390,6 +386,29 @@ textarea {
 
 @media only screen and (max-width: 900px) {
 
+    #logo {
+        float: none;
+        text-align: center;
+        font-size: 1.5em;
+        padding: 0;
+    }
+
+    #nav {
+        float: none;
+        text-align: center;
+        margin-top: 0;
+        padding: 0; 
+    }
+    
+    #nav li {
+        padding-right: 0;
+    }
+    
+    #nav a {
+        font-size: 1em;
+        padding: .5vw;   
+    }
+
     .form {
         padding-top: 17%;
         padding-left: 20%;   
@@ -501,6 +520,26 @@ textarea {
 
 @media only screen and (max-width: 300px) {
     
+    header {
+        height: 75px;
+    }
+
+    #logo {
+        font-size: 1em;
+    }
+
+    #nav {
+        margin-top: 0;
+    }
+    
+    #nav li {
+        padding-right: 0;
+    }
+    
+    #nav a {
+        font-size: .5em;  
+    }
+
     .hero-caption {
         width: 50%;
         left: 25%;
