@@ -141,7 +141,7 @@ The code is original to me, however I have gained inspiration from previous mini
 
 The Resume Project - This mini project with the use of Bootstrap 4 was a guided lesson from Code Institute. 
 
-I have also used Stack Overflow, CSS Tricks and Codecademy for features that I had difficulty developing. They resources were helpful in answering my questions and inspired features that I was able to implement in my site. 
+I have also used [Stack Overflow](https://stackoverflow.com/), [CSS Tricks](https://css-tricks.com/) and [Codecademy](https://www.codecademy.com/learn) for features that I had difficulty developing. They resources were helpful in answering my questions and inspired features that I was able to implement in my site. 
 
 ### Media
 The photos within the project are not of my own, but were sourced from other band sites:
@@ -167,13 +167,12 @@ Central Avenue Function Band's website [here](https://www.centralavenuefunctionb
 
 Misc Images Found on Google Images:
 - [Wedding Performance](https://i.pinimg.com/originals/28/63/32/286332f3e04b855d7336c2c6d77512b9.jpg)
-- [Wedding Venue Dance Floor](https://www.weddingbandmusic.co.uk/2015/07/26/wedding-entertainment-shropshire-wedding-band-or-function-band/)
 
 ### Acknowledgements
 
 The inspiration for this project has been from the official [The Function Band's](https://www.thefunction.band/) website. I recieved a majority of the color palette, content as well as videos and images from their site.
 
-As this is my first site that I have developed from start to finish, I found that generating the commit messages to Github were difficult for me to compose correctly. This guide from Joel Parker Henderson on [Github](https://github.com/joelparkerhenderson/git_commit_message) clarified my understanding of how to write clear and consise commit messages. 
+As this is my first site that I have developed from start to finish, I found that generating the commit messages to Github were difficult for me to compose correctly. This guide from [Joel Parker Henderson](https://github.com/joelparkerhenderson/git_commit_message) on GitHub clarified my understanding of how to write clear and consise commit messages. 
 
 I also wanted to thank my Code Institute mentor, Precious Ijege, who has been a great support and guide in the core development of this project. 
 
