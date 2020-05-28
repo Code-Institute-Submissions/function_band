@@ -84,21 +84,7 @@ I used [Adobe XD](https://www.adobe.com/uk/products/xd.html) to create my wirefr
     * Sourced fonts required for site
 
 ## Testing
-
-### Testing Matrix
-The overall site has achieved the intended pruposes and design. The attached [testing matrix](https://github.com/aprilha3097/function_band/blob/master/testing/user_testing.pdf) on responsivness and browser compatibility outlines the various tests implemented. 
-
-Steps on the more extensive test implmented on the form section:
-* Form: 
-    1. Submit form with no information - unable to do so without first and last name and email
-    2. Enter only first name and submit form - unable to do so without last name and email details
-    3. Enter only last name and submit form - unable to do so without first name and email details
-    4. Enter only email and submit form - unable to do so without first and last name details
-    5. Enter first and last name and partial email detail (no @) and then submit form - unable to do so without the @ icon to complete email address
-    6. Enter name and email correctly and submit form - form submits - no re-direction as page is static
-    7. Message box - able to increase height of box and min and max height rule is implemented
-    8. Form is able to submit successfully with and without text within the message box
-    9. If the message exceeds the height, users are able to scroll to the top and bottom of their message
+Information on Testing can be found on this page: 
 
 ### Compatibility
 The site was tested on these sites with a variety of success: 
@@ -117,7 +103,16 @@ The site was tested on these sites with a variety of success:
 The site has been deployed using Github Pages, which is sourced directly from my Master branch:
 https://aprilha3097.github.io/function_band/
 
-### Run site locally
+#### To deploy this site with Github Pages, follow these steps:
+1. When accessing Github, scroll to the top of the repository
+2. From the top horizontol menu, select <strong>Settings</strong>
+3. Select <strong>Options</strong> on the left menu if not already selected
+4. Scroll down to the <strong>GitHub Pages</strong> section
+5. Under <strong>Source</strong> select the <strong>Master branch<strong>
+6. On selecting the <strong>Master branch</strong> the page will automtically refresh, with the site now deployed
+7. The link to access the deployed site will be at the top of the <strong>GitHub Pages</strong> section
+
+#### Run site locally
 
 1. On the [repository page](https://github.com/aprilha3097/function_band), click on the Clone or Download button
 
