@@ -1,6 +1,7 @@
 # The Function Band
  
 Milestone Project #1 - User Centric Front-End Development 
+
 Deployed Site: https://aprilha3097.github.io/function_band/
  
 The Function band is the most respected and hired band in the Greenwich and Lewisham area. This site provides deep insight into the bands style for new and past users to experience the band from the comfort of their mobile or computer. This site is to introduce the band to prospective event creators who require a band with a variety in style and performance.
