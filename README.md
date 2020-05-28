@@ -1,5 +1,3 @@
-<a name="intro"></a>
-
 # The Function Band
  
 Milestone Project #1 - User Centric Front-End Development
@@ -48,7 +46,7 @@ I used [Adobe XD](https://www.adobe.com/uk/products/xd.html) to create my wirefr
 * As a user, I need to read about the bands formation, so that I have more knowledge of the band.
 * As a user, I want to listen/watch a video of the band performing, so that I like the sound of the band.
 * As a user, I want to view photos, so that I can determine if I like the look of the band.
-* As a user, I want to supply my contact information and info on the event so that the band can get back in touch with me with more details.
+* As a user, I want to supply my contact information so that the band can get back in touch with me with more details.
 
 ## Features 
 
@@ -62,7 +60,7 @@ I used [Adobe XD](https://www.adobe.com/uk/products/xd.html) to create my wirefr
 * A call to action link to encourage users to get in touch for pricing information
 * A series of images of the band and past events
 * Contact form for users to submit details of themselves and event
-* A button allowing users to submit form once completed
+* A button allowing users to submit the form once completed
 
 ### Features Left to Implement
 
@@ -76,7 +74,7 @@ I used [Adobe XD](https://www.adobe.com/uk/products/xd.html) to create my wirefr
     * The markup language used for structuring and presenting content of the site
 2. [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
     * The Cascading Style Sheet used to to design the site
-3. [Bootstrap v4.4.1](https://getbootstrap.com/)
+3. [Bootstrap](https://getbootstrap.com/)
     * CSS Framework used for building the grid layout and mobile-first responsive design
 4. [Font Awesome](https://fontawesome.com/)
     * Used for inserting quick and easy icons and logos for the site
@@ -84,19 +82,7 @@ I used [Adobe XD](https://www.adobe.com/uk/products/xd.html) to create my wirefr
     * Sourced fonts required for site
 
 ## Testing
-Information on Testing can be found on this page: 
-
-### Compatibility
-The site was tested on these sites with a variety of success: 
-* Google Chrome
-* Safari 
-* Edge
-* Internet Explorer
-* Firefox
-
-### Noted Issues
-* CSS Grid is not supported on Safari. The gallery page was not fixed to the 2 coloumn style rule that was implemented
-* The height of images were stretched when veiewing the site on Edge 
+[Information on Testing can be found here](https://github.com/aprilha3097/function_band/blob/master/testing.md)
 
 ## Deployment
 
@@ -108,11 +94,13 @@ https://aprilha3097.github.io/function_band/
 2. From the top horizontol menu, select <strong>Settings</strong>
 3. Select <strong>Options</strong> on the left menu if not already selected
 4. Scroll down to the <strong>GitHub Pages</strong> section
-5. Under <strong>Source</strong> select the <strong>Master branch<strong>
+5. Under <strong>Source</strong> select the <strong>Master branch</strong>
 6. On selecting the <strong>Master branch</strong> the page will automtically refresh, with the site now deployed
 7. The link to access the deployed site will be at the top of the <strong>GitHub Pages</strong> section
 
-#### Run site locally
+It can take up to 20 minutes for changes to the site to be published after pushing to GitHub. For more information on deploying your site with GitHub Pages, go [here](https://help.github.com/en/github/working-with-github-pages/creating-a-github-pages-site)
+
+#### Run this site locally
 
 1. On the [repository page](https://github.com/aprilha3097/function_band), click on the Clone or Download button
 
@@ -122,8 +110,8 @@ https://aprilha3097.github.io/function_band/
 
     <img src="https://github.com/aprilha3097/function_band/blob/master/example_images/clone_or_download.png" width="400">
 
-3. Open Terminal and change the directory to where you want the cloned directory
-4. Type git clone and then paste the previous URL from earlier
+3. Open Terminal and change the directory to where you want the cloned directory to be
+4. Type git clone and then paste the previous URL from earlier into your terminal
 
     <img src="https://github.com/aprilha3097/function_band/blob/master/example_images/git_clone.png" width="500">
 
@@ -137,21 +125,23 @@ For more information on cloning repositories, go [here](https://help.github.com/
 
 A majority of the written content has not been written by me. The content has been sourced from other function band sites.
 
-- The introduction text on the Home Page has been copied from the band the [Brand New Groove's](https://www.brandnewgroove.co.uk/) contact page:
+- The introduction text on the Home Page has been copied from the band the [Brand New Groove's](https://www.brandnewgroove.co.uk/)
 
-- The text in the box when entering the About Us page was sourced from [The Blue Rinse](https://www.thebluerinse.co.uk/) about us section:
+- The text in the box when entering the About Us page was sourced from [The Blue Rinse](https://www.thebluerinse.co.uk/)
 
-- The main set of text on the About Us page was sourced from [The Ambassador Band's](http://www.ambassadorband.co.uk/party-band-london/) about us section:
+- The main set of text on the About Us page was sourced from [The Ambassador Band's](http://www.ambassadorband.co.uk/party-band-london/)
 
-- The example line up within the About Us page was sourced from [The Function Band's](https://www.thefunction.band/showband) site under the Showband page:
+- The example line up within the About Us page was sourced from [The Function Band's](https://www.thefunction.band/showband)
 
-- The video within the About Us section was sourced from Youtube. The original performers are with The Function Band - [The Function Band Live at The Savoy](https://youtu.be/nNy0-O26NIQ)
+- The video within the About Us section was sourced from Youtube. The original performers are The Function Band - [The Function Band Live at The Savoy](https://youtu.be/nNy0-O26NIQ)
 
 The code is original to me, however I have gained inspiration from previous mini projects that were completed with Code Institute: 
 
 [The Love Running Project](https://repl.it/@AprilHa/Love-Running) - This was as a mini project with guided instructions from [Code Institute](https://codeinstitute.net/)
 
-The Resume Project - This mini project with the use of Bootstrap 4 was a guided instructed series from Code Institute. 
+The Resume Project - This mini project with the use of Bootstrap 4 was a guided lesson from Code Institute. 
+
+I have also used Stack Overflow, CSS Tricks and Codecademy for features that I had difficulty developing. They resources were helpful in answering my questions and inspired features that I was able to implement in my site. 
 
 ### Media
 The photos within the project are not of my own, but were sourced from other band sites:
@@ -176,7 +166,6 @@ Central Avenue Function Band's website [here](https://www.centralavenuefunctionb
 - [Full Band](https://www.entertainersworldwide.com/graphics/products/cache/s_1200_800_4aa05b6a9a8363bbe6a4b8c6ef197179.jpg)
 
 Misc Images Found on Google Images:
-- [Texture](https://image.freepik.com/free-photo/cement-wall-texture-background_76539-221.jpg)
 - [Wedding Performance](https://i.pinimg.com/originals/28/63/32/286332f3e04b855d7336c2c6d77512b9.jpg)
 - [Wedding Venue Dance Floor](https://www.weddingbandmusic.co.uk/2015/07/26/wedding-entertainment-shropshire-wedding-band-or-function-band/)
 
