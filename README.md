@@ -82,7 +82,7 @@ I used [Adobe XD](https://www.adobe.com/uk/products/xd.html) to create my wirefr
     * Sourced fonts required for site
 
 ## Testing
-[Information on Testing can be found here](https://github.com/aprilha3097/function_band/blob/master/testing.md)
+[Information on Testing can be found here](https://github.com/aprilha3097/function_band/blob/master/testing/testing.md)
 
 ## Deployment
 
