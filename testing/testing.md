@@ -22,7 +22,6 @@ Features have been tested and work to its intended purposes. Below outlines the 
 * Text color blended with the white background color of the site making it difficult to read the navigation text when scrolling through 
 
 <strong>Resolution:</strong>
-* Condensed the navigation text to center of the page, as the edges of the site were padded white. This made it difficult to read the navigation text once overlayed on the main section of the page
 * Added a light grey transparent background color for text to sit on, so text is always easy to read
 * Navigation bar is now easy to access as well as to read at each scrolling point of the site
 
