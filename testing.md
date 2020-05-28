@@ -24,10 +24,10 @@ I condensed the navigation to the center of the page. The edges of the site have
 #### Buttons and Links: 
 
 <strong>Initial Feature:</strong>
-Navigation Links: Site re-directs to the corrected pages with 'target' not set 
-Call to Action button: Site re-directs to the form with 'target' not set
-Get in Touch Link: Site re-directs to the form on a new tab with 'target="_blank"' set
-Form Submit Button: When form is complete and submitted, the will not direct to anywhere as 'action="#"'
+Navigation Links: Site re-directs to the corrected pages with `target` not set 
+Call to Action button: Site re-directs to the form with `target` not set
+Get in Touch Link: Site re-directs to the form on a new tab with `target="_blank"` set
+Form Submit Button: When form is complete and submitted, the will not direct to anywhere as `action="#"`
 
 Issues Found: 
 Resolution: 
