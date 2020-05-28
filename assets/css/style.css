@@ -38,6 +38,11 @@ header {
     padding: 0 .5%;
 }
 
+#nav a {
+    color: white;
+    padding: .10% .25%;
+}
+
 #logo {
     color: white;
     text-decoration: none;
@@ -45,13 +50,8 @@ header {
     font-size: 1.5em;
 }
 
-#nav a {
-    color: white;
-    padding: .10% .25%;
-}
-
 .nav_bg {
-    background-color: rgba(0, 0, 119, .5);
+    background-color: rgba(46, 49, 49, .5);
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -256,27 +256,12 @@ hr {
 
 /*-------Gallery----*/
 
-
-#gallery-background {
-    height: 100px;
-    overflow: hidden;
-}
-
-.background-texture {
-    /*--Image sourced from Google Search on background textures--*/
-    background-image: url("../img/tecture.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100%;
-}
-
 #gallery-img {
     clear: both;
     line-height: 0;
     column-count: 2;
     column-gap: 10px;
-    padding: 4%;
+    padding: 5% 4% 0 4%;
 }
 
 #gallery-img img {
@@ -286,11 +271,6 @@ hr {
 }
 
 /*------Form------*/
-
-#contact-nav {
-    position: absolute;
-    z-index: 1;
-}
 
 .form {
     height: 700px;
@@ -406,15 +386,9 @@ textarea {
     margin: 0 auto;
 }
 
-
-
 /*---Media Query----*/
 
 @media only screen and (max-width: 900px) {
-    
-    #gallery-background {
-        height: 145px;
-    }
 
     .form {
         padding-top: 17%;
@@ -496,10 +470,6 @@ textarea {
 
     #gallery-img {
         column-count: 1;
-    }
-
-    #gallery-background {
-        height: 100px;
     }
 
     .form {
